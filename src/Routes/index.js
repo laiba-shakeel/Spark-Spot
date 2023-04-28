@@ -1,8 +1,12 @@
 import React from 'react'
+import {  Routes, Route } from "react-router-dom";
+import AppHome from "../Pages/Auth/Home";
 
 const index = () => {
   return (
-    <div>index</div>
+    <Routes>
+      <Route exact path="/" element={<AppHome />} />
+    </Routes>
   )
 }
 

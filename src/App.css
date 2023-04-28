@@ -1,38 +1,237 @@
-.App {
-  text-align: center;
+#root{
+	
+	text-size-adjust: 100%;
+	letter-spacing: normal;
+	background-color:white ;
+	margin: 0 auto;
+	width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+	box-sizing: border-box;
 }
+.font{
+	font-size: 30px;
+}
+h1 h2 h3 h4 h5 h6 a span p{
+	line-height: 1.0;
+}
+.container-fluid{
+	margin: auto;
+	padding: 0;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.container {
+	margin: auto;
+	padding: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar{
+	margin: 0%;
   }
-  to {
-    transform: rotate(360deg);
+.topBar{
+	min-height: 5vh;
+	height:auto;
+	width: 100%;
+	display: inline-block;
+	font-size: calc(12px + 0.5vw);
+	font-weight: bold;
+    line-height: 1.0;
+    letter-spacing: normal;
+	color: black;
+}
+.header{
+	min-height: 9vh;
+	height:auto;
+	width: 100%;
+	
+}
+.img, svg {
+	vertical-align: 0;
+}
+.icon-btn{
+	border: none;
+	background-color: #F7F8F8;
+}
+.icon-btn:hover {
+	color: #0d95c6;
+}
+
+
+.header_menu{
+	min-height: 10vh;
+	height:auto;
+	width: 100%;
+	display: inline-block;
+	font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.img-icon-fluid {
+    width: 70px;
+	max-width: auto;
+    height: 60px;
+	margin-right: auto;
+}
+.separator{
+    border-bottom-color: #efefefb7;    
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    font-size: 24px;
+	justify-content: center;
+}
+.fill{
+	height: auto;
+	border: 3px solid #002f34;
+	border-radius: 2px;
+	color: #002f34;
+}
+.fill:focus {
+	font-style:normal;
+	border: 3px solid #002f34;
+	color: #002f34;
+	-webkit-box-shadow: none;
+  box-shadow: none;
+	
+}
+.hvr_btn:hover{
+	border-bottom: 4px solid #002f34;
+	cursor: pointer;
+	padding-bottom: 15px;
+}
+.search_btn:hover{
+	color: white ;
+	background-color:#002f34 ;
+}
+.Button_top{
+	position: relative;
+	z-index: 0 ;
+	width: auto;
+}
+.Button_top1{
+	position: absolute;
+	z-index: 1 ;
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+.Button_top2{
+	position: absolute;
+	z-index: 1 ;
+	padding: 5px 50px 5px 50px;
+	margin: 0;
+	font-size: 30px;
+	font-weight: bold;
+}
+.App_slider{
+	width: 90%;
+  margin-top: 50px;
+}
+.slick-slider  {
+	margin: 15px;
+}
+
+.slick-slider >button{
+	color: grey;
+}
+ 
+.slick-slider > ul {
+    position: absolute;
+    bottom: -15px;
+    display: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align:center;
+}
+  .slick-slide > div {
+	padding: 0px 50px;
   }
+  .slick-list {
+	padding: 0 -10px;
+	
+  }
+
+
+  
+  .card-slick {
+	border: 1px solid #fff;
+	background: black;
+	border-radius: 4px;
+	overflow: hidden;
+  
+	height: 400px;
+	color: #fff;
+	cursor: pointer;
+  }
+  
+  .card-top h1 {
+	font-size: 0.9rem;
+	margin: 20px;
+  }
+  
+  .card-top > img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	background: black;
+  }
+  
+  .card-bottom {
+	margin: 10px 20px;
+  }
+  
+  .category {
+	position: relative;
+  }
+  .category::before {
+	content: '';
+	background: rgb(255, 61, 61);
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	right: 0;
+	height: 2px;
+  }
+ 
+.footer2 ul{
+	text-decoration: none;
+	list-style-type:none ;
+	padding-left: 0rem;
+
+}
+
+.footer li{
+	text-decoration: none;
+	list-style-type:none ;
+
+}
+
+.verticalLine{
+	height: 300px;
+    border-right: 1px solid #000900;
+	position: absolute;
+	right: 50%;
+}
+
+
+
+
+@media screen and (max-width:1270px) {
+    .Button_top {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width:500px){
+	body{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:556px) {
+    .header_menu {
+        display: none !important;
+    }
 }

@@ -1,19 +1,17 @@
-import { ThemeProvider } from "react-bootstrap";
-import BasicLayout from "./Components/Layouts/BasicLayout";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css'
+import Routes from "./Routes/index"
+import {  BrowserRouter } from "react-router-dom";
+
+
 function App() {
   return (
-    <ThemeProvider
-    breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
-    minBreakpoint="xxs"
-  >
-    <div>
-      <BasicLayout/>
-      </div> 
-
-
-
-
-  </ThemeProvider>
+    <div className="App">
+      <BrowserRouter>
+      <Routes />
+      </BrowserRouter>
+    </div> 
   );
 }
 
