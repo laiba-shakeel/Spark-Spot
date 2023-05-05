@@ -1,0 +1,35 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.text-gradient{
+	font-size: auto ;
+    background: #ff7af3;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	
+}
+.common-heading{
+	line-height: 26px;
+	color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    display: block;
+	
+}
+.mb20{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.mb10{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.mb5{
+    font-weight: 400;
+    font-size: 16px;
+}
