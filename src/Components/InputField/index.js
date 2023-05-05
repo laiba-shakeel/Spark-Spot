@@ -1,22 +1,34 @@
-import React from 'react'
+import React from "react";
 import baseColors from "../../Constant/color";
 
-function InputField({placeholder}) {
+function InputField({ placeholder, children, type }) {
   return (
     <input
-              placeholder={placeholder}
-              
-              styles={{
-                color:baseColors.Dark,
-                border:"1px solid",
-                borderRadius:"7px",
-                padding:"7px"
-              }}
-    />
-  )
+      placeholder={placeholder}
+      type={type}
+      style={{
+        height: 35,
+        margin: 5,
+        borderColor: baseColors.Grey,
+        borderStyle:"solid",
+        borderWidth: 1,
+        borderRadius: 50,
+        padding: 12,
+        textAlignVertical: "top",
+        // paddingHorizontal: 50,
+        // paddingVertical: 10,
+        // marginHorizontal: 2,
+        // marginVertical: 5,
+        fontSize: 15,
+        color: baseColors.Dark,
+      }}
+    >
+      {children}
+    </input>
+  );
 }
 
-export default InputField
+export default InputField;
 
 // import React from "react";
 // // import { SafeAreaView, StyleSheet, TextInput } from "react-native";
@@ -27,7 +39,7 @@ export default InputField
 //   placeholder,
 //   keyboardType,
 //   secureTextEntry,
-//   styles: customStyles, 
+//   styles: customStyles,
 //   multiline,
 //   numberOfLines,
 //   children,
@@ -41,8 +53,6 @@ export default InputField
 //   if (!_.isEmpty(customStyles)) {
 //     styles = { styles, ...customStyles };
 //   }
-
-  
 
 //   return (
 //     // <div className="input-group input-group " >
@@ -64,24 +74,24 @@ export default InputField
 //     </input>
 //     // </div>
 //   );
-  
+
 // }
 
 // const defaultStyles = {
 //   input: {
-//     height: 40,
-//     margin: 12,
-//     borderColor: baseColors.sucessColor,
-//     borderWidth: 1,
-//     borderRadius: 50,
-//     padding: 10,
-//     textAlignVertical: "top",
-//     paddingHorizontal: 10,
-//     paddingVertical :10,
-//     marginHorizontal: 2,
-//     marginVertical: 5,
-//     fontSize:15,
-//     color:baseColors.Dark
+// height: 40,
+// margin: 12,
+// borderColor: baseColors.sucessColor,
+// borderWidth: 1,
+// borderRadius: 50,
+// padding: 10,
+// textAlignVertical: "top",
+// paddingHorizontal: 10,
+// paddingVertical :10,
+// marginHorizontal: 2,
+// marginVertical: 5,
+// fontSize:15,
+// color:baseColors.Dark
 //   },
 // };
 

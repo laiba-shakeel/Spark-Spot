@@ -28,9 +28,10 @@ function SignUpForm() {
                 border: "2px solid",
                 borderColor: baseColors.Dark,
                 borderRadius: "20px",
+                height: "35px",
               }}
             >
-              <div className=" d-flex justify-content-center align-items-center py-1">
+              <div className=" d-flex justify-content-center align-items-center ">
                 <AppleFilled style={{ color: baseColors.Dark }} />
                 <text
                   className="px-1"
@@ -55,7 +56,7 @@ function SignUpForm() {
                 borderColor: baseColors.GoogleBlue,
                 borderRadius: "30px",
                 padding: "0",
-                height: "40px",
+                height: "35px",
               }}
             >
               <div className="row d-flex justify-content-center align-items-center m-0 ">
@@ -63,9 +64,10 @@ function SignUpForm() {
                   <img
                     src={GoogleIcon}
                     style={{
-                      width: "47px",
-                      height: "35px",
+                      width: "42px",
+                      height: "32px",
                       borderRadius: "50%",
+                      padding: 2,
                     }}
                   />
                 </div>
@@ -109,22 +111,68 @@ function SignUpForm() {
             </div>
             {/* <InputField /> */}
           </div>
+
           <div
             className="col-11 d-flex justify-content-center align-items-center flex-column"
             style={{ border: "2px solid red" }}
           >
-            
-            <InputField
-              placeholder="Work Email Address"
-              
-              // styles={{
-              //   color:baseColors.Dark,
-              //   border:"1px solid",
-              //   borderRadius:"7px",
-              //   padding:"7px"
-              // }}
-            />
+            <div
+              className="container row d-flex justify-content-between align-items-center px-3"
+              style={{ border: "2px solid Blue" }}
+            >
+              <div className="col-12 col-sm-6 p-0">
+                <InputField placeholder="First Name" />
+              </div>
+              <div className="col-12 col-sm-6 p-0 d-flex justify-content-center align-items-start align-items-sm-end flex-column">
+                <InputField placeholder="Last Name" />
+              </div>
             </div>
+
+            <InputField placeholder="Work Email Address" />
+            <InputField placeholder="Password" type="password" />
+
+            <select
+              className="form-select form-select fill "
+              aria-label="Default select example"
+              style={{
+                height: 35,
+                width: "90%",
+                margin: 5,
+                borderColor: baseColors.Grey,
+                borderStyle: "solid",
+                borderWidth: 1,
+                borderRadius: 50,
+                paddingTop: 0,
+                paddingBottom: 0,
+                // paddingVertical: 10,
+                // marginHorizontal: 2,
+                // marginVertical: 5,
+                fontSize: 15,
+                color: baseColors.Dark,
+              }}
+            >
+              <option selected> Pakistan </option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
+            <div class="input-group ">
+              <div className="input-group-prepend">
+                <div className="input-group-text">
+                  <input
+                    type="checkbox"
+                    aria-label="Checkbox for following text input"
+                  />
+                </div>
+              </div>
+              <input
+                type="text"
+                className="form-control"
+                aria-label="Text input with checkbox"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </AuthLayout>
