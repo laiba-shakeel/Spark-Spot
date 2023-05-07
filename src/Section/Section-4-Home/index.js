@@ -42,7 +42,7 @@ function SectionFourHome() {
             color: baseColors.white,
           }}
         >
-          Work with Upwork to manage your organization’s customer service needs
+          Work with sparkspot to manage your organization’s customer service needs
           big or small
         </h5>
         <GradientButton

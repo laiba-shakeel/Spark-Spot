@@ -54,7 +54,7 @@ function SectionTwoHome() {
               <div className="media_body col-11">
                 <h5 className="mb10">Work with the best—without breaking the bank.</h5>
                 <p className="mb5">
-                Upwork makes it affordable to up your work and take advantage of low transaction rates.
+                sparkspot makes it affordable to up your work and take advantage of low transaction rates.
                 </p>
               </div>
             </div>

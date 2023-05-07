@@ -12,7 +12,7 @@ function InputField({ placeholder, children, type }) {
         borderColor: baseColors.Grey,
         borderStyle:"solid",
         borderWidth: 1,
-        borderRadius: 50,
+        borderRadius: 5,
         padding: 12,
         textAlignVertical: "top",
         // paddingHorizontal: 50,

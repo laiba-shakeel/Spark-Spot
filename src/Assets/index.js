@@ -17,6 +17,8 @@ import LiveImage1 from "./Live-Image1.png"
 import BackgroundBanner from "./BackgroundBanner.gif"
 import SupportHand from "./SupportHand.png"
 import GoogleIcon from "./GoogleIcon.png"
+import Nasdaq from "./nasdaq-light.svg"
+import ImageSignUp from "./ImageSignup.jpg"
 
 
 
@@ -39,5 +41,7 @@ export {
     JoinUs,
     LiveImage1,
     SupportHand,
-    GoogleIcon
+    GoogleIcon,
+    Nasdaq,
+    ImageSignUp
 }

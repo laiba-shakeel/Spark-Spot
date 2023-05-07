@@ -9,11 +9,12 @@ import GradientButton from "../Button/GradientButton/index";
 import { SearchOutlined } from "@ant-design/icons";
 import { AppLogo } from "../../Assets";
 import baseColors from "../../Constant/color";
-import DropdownMenu from "../Dropdown";
+import { useNavigate } from 'react-router'
 
 import "./headerStyles.css";
 
 function AppHeader() {
+  const navigate = useNavigate()
   return (
     <>
       {["md"].map((expand) => (
@@ -69,7 +70,7 @@ function AppHeader() {
               </div>
                 </Form>
                 <Nav.Link href="#action8" className="nav-link active primary-header-menu-item ">Link</Nav.Link>
-                <Nav.Link href="#action9">
+                <Nav.Link href="/signup-as">
               <GradientButton
                 title="Sign Up"
                 color={baseColors.white}
@@ -77,6 +78,7 @@ function AppHeader() {
                 backgroundColor2={baseColors.secondaryColor}
                 height={"35px"}
                 width={"125px"}
+                onClick={() => navigate('/signup-as')}
               />
             </Nav.Link>
                 </Nav>

@@ -6,26 +6,17 @@ import { AppleFilled } from "@ant-design/icons";
 import { GoogleIcon } from "../../../Assets";
 import InputField from "../../InputField";
 
-function SignUpForm() {
+function SignUpForm({ onClick }) {
   return (
     <AuthLayout>
-      <div
-        className="col-12 d-flex justify-content-center align-items-center py-3 py-md-2"
-        style={{ border: "2px solid black" }}
-      >
-        <div
-          className=" container row d-flex justify-content-center "
-          style={{ border: "2px solid green" }}
-        >
-          <div
-            className="col-10 py-1 d-flex justify-content-center flex-column"
-            style={{ border: "2px solid red" }}
-          >
+      <div className="col-12 d-flex justify-content-center align-items-center py-2 py-md-2">
+        <div className=" container row d-flex justify-content-center">
+          <div className="col-10 py-1 d-flex justify-content-center flex-column">
             <FormButton
               styles={{
                 width: "100%",
                 backgroundColor: baseColors.white,
-                border: "2px solid",
+                border: "1px solid",
                 borderColor: baseColors.Dark,
                 borderRadius: "20px",
                 height: "35px",
@@ -35,7 +26,7 @@ function SignUpForm() {
                 <AppleFilled style={{ color: baseColors.Dark }} />
                 <text
                   className="px-1"
-                  style={{ fontSize: "17px", fontWeight: "500" }}
+                  style={{ fontSize: "15px", fontWeight: "500" }}
                 >
                   {" "}
                   Continue with Apple
@@ -44,10 +35,7 @@ function SignUpForm() {
             </FormButton>
           </div>
 
-          <div
-            className="col-10 py-1 d-flex justify-content-center flex-column"
-            style={{ border: "2px solid red" }}
-          >
+          <div className="col-10 py-1 d-flex justify-content-center flex-column">
             <FormButton
               styles={{
                 width: "100%",
@@ -74,7 +62,7 @@ function SignUpForm() {
                 <div className="col-11 p-0 d-flex justify-content-center flex-column">
                   <text
                     style={{
-                      fontSize: "17px",
+                      fontSize: "15px",
                       fontWeight: "500",
                       color: baseColors.white,
                     }}
@@ -86,10 +74,7 @@ function SignUpForm() {
               </div>
             </FormButton>
           </div>
-          <div
-            className="col-10 d-flex justify-content-center flex-column"
-            style={{ border: "2px solid red" }}
-          >
+          <div className="col-10 d-flex justify-content-center flex-column">
             <div className="row d-flex align-items-center justify-content-center m-0 ">
               <div
                 className="col-5"
@@ -99,7 +84,12 @@ function SignUpForm() {
                   borderColor: baseColors.Grey,
                 }}
               ></div>
-              <text className="col-1 text-center px-1 pb-1 m-0">or</text>
+              <text
+                className="col-1 text-center px-1 pb-1 m-0"
+                style={{ fontSize: "15px" }}
+              >
+                or
+              </text>
               <div
                 className="col-5"
                 style={{
@@ -112,14 +102,8 @@ function SignUpForm() {
             {/* <InputField /> */}
           </div>
 
-          <div
-            className="col-11 d-flex justify-content-center align-items-center flex-column"
-            style={{ border: "2px solid red" }}
-          >
-            <div
-              className="container row d-flex justify-content-between align-items-center px-3"
-              style={{ border: "2px solid Blue" }}
-            >
+          <div className="col-11 d-flex justify-content-center align-items-center flex-column">
+            <div className="container row d-flex justify-content-between align-items-center px-3">
               <div className="col-12 col-sm-6 p-0">
                 <InputField placeholder="First Name" />
               </div>
@@ -141,7 +125,7 @@ function SignUpForm() {
                 borderColor: baseColors.Grey,
                 borderStyle: "solid",
                 borderWidth: 1,
-                borderRadius: 50,
+                borderRadius: 5,
                 paddingTop: 0,
                 paddingBottom: 0,
                 // paddingVertical: 10,
@@ -156,22 +140,82 @@ function SignUpForm() {
               <option value="2">Two</option>
               <option value="3">Three</option>
             </select>
+          </div>
 
-            <div class="input-group ">
-              <div className="input-group-prepend">
-                <div className="input-group-text">
-                  <input
-                    type="checkbox"
-                    aria-label="Checkbox for following text input"
-                  />
-                </div>
-              </div>
-              <input
-                type="text"
-                className="form-control"
-                aria-label="Text input with checkbox"
-              />
+          <div class="row d-flex justify-content-center py-1 m-0">
+            <div
+              className="col-1 col-md-2 col-lg-1 col-xl-2 input-group-text p-0 pt-1 
+              d-flex 
+              align-items-end 
+              justify-content-start 
+              flex-column"
+              style={{ background: baseColors.white, border: "0" }}
+            >
+              <input type="checkbox" style={{}} />
             </div>
+            <text
+              className="col-11 col-md-10 col-lg-11 col-xl-10 p-0 "
+              style={{ fontSize: "14px" }}
+            >
+              Send me emails with tips on how to find talent that fits my needs.
+            </text>
+          </div>
+
+          <div class="row d-flex justify-content-center py-1 m-0">
+            <div
+              className="col-1 col-md-2 col-lg-1 col-xl-2 input-group-text p-0 pt-1 
+              d-flex 
+              align-items-end 
+              justify-content-start 
+              flex-column"
+              style={{ background: baseColors.white, border: "0" }}
+            >
+              <input type="checkbox" style={{}} />
+            </div>
+            <text
+              className="col-11 col-md-10 col-lg-11 col-xl-10 p-0 "
+              style={{ fontSize: "14px" }}
+            >
+              Yes, I understand and agree to the sparkspot Terms of Service ,
+              including the User Agreement and Privacy Policy .
+            </text>
+          </div>
+
+          <div className="col-10 py-1 d-flex justify-content-center flex-column">
+            <FormButton
+              styles={{
+                width: "100%",
+                background: `linear-gradient(to right,${baseColors.primaryColorThree} ,  ${baseColors.secondaryColorTwo})`,
+                border: "0",
+                borderRadius: "20px",
+                height: "35px",
+              }}
+            >
+              <div className=" d-flex justify-content-center align-items-center ">
+                <text
+                  className="px-1"
+                  style={{
+                    fontSize: "17px",
+                    fontWeight: "500",
+                    color: baseColors.white,
+                  }}
+                >
+                  Create My Account
+                </text>
+              </div>
+            </FormButton>
+          </div>
+          <div className="d-flex justify-content-center py-1">
+            <text style={{ fontSize: "12px" }}>
+              Already have an account?
+              <text
+                className="px-1"
+                style={{ fontSize: "12px", color: baseColors.secondaryColor }}
+                onClick={onClick}
+              >
+                Log In
+              </text>
+            </text>
           </div>
         </div>
       </div>
