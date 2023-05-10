@@ -16,8 +16,8 @@ const SectionSevenHome = () => {
       
           </p>
         </div>
-        <div className="col-lg-3 col-md-3 col-4">
-          <img src={SupportHand} alt="" className="img-fluid fluid d-block mx-auto "/>
+        <div className="col-lg-3 col-md-3 col-4 ">
+          <img src={SupportHand} alt="" className="img-fluid fluid d-block mx-auto " style={{height:"100%"}}/>
         </div>
       </div>
     </div>
