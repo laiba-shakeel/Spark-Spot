@@ -20,7 +20,7 @@ function HeaderMenu() {
             <li className="nav-item">
               <a
                 className="nav-link active primary-header-menu-item"
-                href="#Development-IT"
+                href="/development-IT"
               >
                 Development & IT
               </a>

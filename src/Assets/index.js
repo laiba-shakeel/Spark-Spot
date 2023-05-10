@@ -19,7 +19,7 @@ import SupportHand from "./SupportHand.png"
 import GoogleIcon from "./GoogleIcon.png"
 import Nasdaq from "./nasdaq-light.svg"
 import ImageSignUp from "./ImageSignup.jpg"
-
+import bggrad from "./bg-grad.jpg"
 
 
 export {
@@ -43,5 +43,6 @@ export {
     SupportHand,
     GoogleIcon,
     Nasdaq,
-    ImageSignUp
+    ImageSignUp,
+    bggrad,
 }

@@ -1,9 +1,14 @@
 import React from 'react'
-
-function index() {
+import Layout from "../../../Layouts/BasicLayout/index";
+import SectionOneCatagory from '../../../Section/Section-1-Catagories'
+function DevelopmentAndIt() {
   return (
-    <div>index</div>
+  <>
+<Layout>
+  <SectionOneCatagory />
+</Layout>
+  </>
   )
 }
 
-export default index
+export default DevelopmentAndIt
