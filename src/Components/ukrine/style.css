@@ -1,0 +1,19 @@
+.contAreaSec{
+    background-image: url('https://images.ctfassets.net/hrltx12pl8hq/6DyfMDxHPYWSnBMPqyveTG/6781a7181fc7b09f8df9013ccdab2cbc/hero-static-2.png?fit=fill&w=1280&h=500&fm=webp');
+    border: 1px;
+    border-radius: 5px;  
+}
+.contentArea h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 40px;
+    color: #fff;
+  
+}
+
+.contentArea p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 12px 0 20px;
+}

@@ -17,7 +17,10 @@ import LiveImage1 from "./Live-Image1.png"
 import BackgroundBanner from "./BackgroundBanner.gif"
 import SupportHand from "./SupportHand.png"
 import GoogleIcon from "./GoogleIcon.png"
-
+import Sec6 from './sec6.jpg'
+import Sec7 from './sec7.png'
+import Sec8 from './sec8.png'
+import Sec9 from './sec9.jpeg'
 
 
 export {
@@ -39,5 +42,9 @@ export {
     JoinUs,
     LiveImage1,
     SupportHand,
-    GoogleIcon
+    GoogleIcon,
+    Sec6,
+    Sec7,
+    Sec8,
+    Sec9
 }
