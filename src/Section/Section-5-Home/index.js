@@ -7,7 +7,7 @@ const SectionFiveHome = () => {
   return (
     
     
-      <div className="row d-flex justify-content-center align-items-evenly m-0 p-0 slider_img">
+      <div className="row d-flex justify-content-center align-items-evenly m-0 p-0 slider_img my-5 ">
         <div className="row justify-content-center mt-3 m-0 py-3">
           <div className=" col-12 col-md-10 text-center justify-content-center align-items-center ">
             <h1 className="text-white fs-3 fw-bolder" style={{textShadow: "1px 1px gray"}}>Find Talent Your Way </h1>

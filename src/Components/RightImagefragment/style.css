@@ -33,4 +33,18 @@
     font-weight: 400;
     font-size: 16px;
 }
-
+.gradient-Heading{
+    font-size: calc(35px + 6 * ((100vw - 320px) / 680));
+    font-weight: bolder;
+  background: -webkit-linear-gradient(#ffffff, #050dfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mb7{
+    font-weight: 600;
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+}
+.mb8{
+    font-weight: 300;
+    font-size: calc(8px + 6 * ((100vw - 320px) / 680));
+}

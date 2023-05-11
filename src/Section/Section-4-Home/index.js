@@ -6,8 +6,8 @@ import FlatButton from "../../Components/Button/FlatButton";
 
 function SectionFourHome() {
   return (
-    <div>
-      <div className="row d-flex justify-content-center align-items-center m-0 pt-4" >
+    <div className="my-2 py-2">
+      <div className="row d-flex justify-content-center align-items-center m-0 py-4 " >
           <FlatButton
             title="Vehicle Options"
             color={baseColors.primaryColor}
