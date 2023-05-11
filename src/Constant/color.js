@@ -15,7 +15,11 @@ const baseColors = {
     lightGrey: "#c7d9dc",
     Dark: "#000",
     Grey:"#C8C8C8",
-    GoogleBlue:"#4c8bf5"
+    GoogleBlue:"#4c8bf5",
+    CarouselGreen:"#13544e",
+    CarouselBrown:"#bc511b",
+    CarosuselDarkGreen:"#001e00"
+
   };
   
   export default baseColors;

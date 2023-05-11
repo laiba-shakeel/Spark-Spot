@@ -9,6 +9,7 @@ function FormButton({
   children,
   value,
   styles: customStyles,
+  onClick
 }) {
   let styles = defaultStyles.appButtonContainer;
   if (!_.isEmpty(customStyles)) {
@@ -17,7 +18,7 @@ function FormButton({
 
 
   return (
-    <button onPress={onPress} style={styles} value={value}>
+    <button onPress={onPress} style={styles} value={value} onClick={onClick}>
       {children}
     </button>
   );

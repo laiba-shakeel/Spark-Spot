@@ -11,7 +11,7 @@ import {
 const style = {
   footer: {
     height: "auto",
-    minHeight: "410px",
+    minHeight: "300px",
   },
   mainContainer: {
     border: "2px",
@@ -34,10 +34,10 @@ function AppFooter() {
 
   return ( 
   
-    <div style={style.footer} className="row d-flex justify-content-center pt-5 m-0 mb-2">
+    <div style={style.footer} className="row d-flex justify-content-center pt-2 m-0 mb-2">
       <div
         style={style.mainContainer}
-        className="col-11  p-0  justify-content-center py-5"
+        className="col-11  p-0  justify-content-center py-4"
       >
         <div className="row d-flex justify-content-around py-3 m-0">
           <div className="col col-lg-3 col-6 col-md-3  ps-5">
@@ -89,7 +89,7 @@ function AppFooter() {
             <p style={style.cursor}>Modern Slavery Statement</p>
           </div>
         </div>
-<div className="col-12 text-start py-3">
+<div className="col-12 text-start ">
     <span className="text-center">
         <strong className="ps-5">Follow Us</strong>
        <span className="justify-content-evenly ps-2">
@@ -103,7 +103,7 @@ function AppFooter() {
 
 </div>
 <hr />
-        <div className="col-12 text-end py-2" style={style.footerBottom}>
+        <div className="col-12 text-end " style={style.footerBottom}>
           <span className="pe-2">
             <strong style={style.cursor}>Free Classifieds in Pakistan</strong>
           </span>

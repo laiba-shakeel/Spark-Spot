@@ -4,10 +4,11 @@ import SignUpForm from "../../../Components/form/SignUpForm";
 
 
 function SignUpUser() {
+  const Navigate = useNavigate()
   return (
-    <SignUpForm>
-      
-    </SignUpForm>
+    <SignUpForm
+    onClick={() => Navigate('/signin-user')}
+    />
   )
 }
 

@@ -3,10 +3,11 @@ import { useNavigate } from "react-router-dom";
 import SignUpForm from "../../../Components/form/SignUpForm";
 
 function SignUpClient() {
+  const Navigate = useNavigate()
   return (
-    <SignUpForm>
-      
-    </SignUpForm>
+    <SignUpForm
+    onClick={() => Navigate('/signin-client')}
+    />
   )
 }
 

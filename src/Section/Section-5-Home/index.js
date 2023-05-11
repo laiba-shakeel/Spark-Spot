@@ -1,46 +1,53 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 /* // import { img1 } from '../../Assets/index'*/
-// import { Button } from 'bootstrap' 
+// import { Button } from 'bootstrap'
 
 const SectionFiveHome = () => {
   return (
-
-<div className="row  justify-content-center container-fluid m-0 p-0" >
-            <div className="row slider_img d-flex justify-content-center align-items-evenly "> 
-                <div className='row justify-content-center mt-3 m-0'>
-            		<div className=" col-12 col-md-8 text-center justify-content-center align-items-center">
-                  	<h1 className="text-white fw-bold">Find Talent Your Way </h1>
-                  	<h6 className="text-white">Work with the largest network of independent professionals and get things done—from quick turnarounds to big transformations. <br /> network of independent professionals and get things  </h6>
-            		</div>
-                </div>
-                <div className='row container d-none d-lg-block mt-0 mt-xl-3' >
-                <div className="row d-flex justify-content-center align-item-center ">
-          <div className="col-xl-4 col-4">
-            <div className="blogItem py-0">
-              {/* <img src={img1} alt="" class="w-100" /> */}
-              <h6 className="spanTitle text-white pt-4">Marvelous Designer: Revolutionizing the 3D Clothing </h6>
-            </div>
-          </div>
-          <div className="col-xl-4 col-4 align-items-center justify-content-center">
-            <div className="blogItem py-0">
-              {/* <img src={img1}  alt="" class="w-100" /> */}
-              <h6 className="spanTitle text-white pt-4">Marvelous Designer: Revolutionizing the 3D Clothing </h6>
-            </div>
-          </div>
-          <div className="col-xl-4 col-4">
-            <div className="blogItem py-0">
-              {/* <img src={img1}  alt="" class="w-100" /> */}
-              <h6 className="spanTitle text-white pt-4">Marvelous Designer: Revolutionizing the 3D Clothing </h6>
-            </div>
+    
+    
+      <div className="row d-flex justify-content-center align-items-evenly m-0 p-0 slider_img">
+        <div className="row justify-content-center mt-3 m-0 py-3">
+          <div className=" col-12 col-md-10 text-center justify-content-center align-items-center ">
+            <h1 className="text-white fs-3 fw-bolder" style={{textShadow: "1px 1px gray"}}>Find Talent Your Way </h1>
+            <text className="text-white " style={{textShadow: "1px 1px gray", fontSize:"calc(14px + 6 * ((100vw - 320px) / 680))"}}>
+              Work with the largest network of independent professionals and get
+              things done—from quick turnarounds to big transformations. <br />{" "}
+              network of independent professionals and get things{" "}
+            </text>
           </div>
         </div>
-                </div>
-            	</div>
-                  </div>
-           
+        
+          <div className="row d-flex justify-content-around align-items-center m-0 p-0 py-3">
+            <div className="col-12 col-md-4 blogItem">
+              
+                {/* <img src={img1} alt="" class="w-100" /> */}
+                <text className="spanTitle text-dark text-center ">
+                  Marvelous Designer: Revolutionizing the 3D Clothing{" "}
+                </text>
+              
+            </div>
+            <div className="col-md-4 d-none d-md-block  align-items-center justify-content-center blogItem ">
+              
+                <text className="spanTitle text-dark text-center">
+                  Marvelous Designer: Revolutionizing the 3D Clothing{" "}
+                </text>
+              
+            </div>
+            <div className="col-md-4 d-none d-md-block blogItem ">
+                {/* <img src={img1}  alt="" class="w-100" /> */}
+                <text className="spanTitle text-dark text-center">
+                  Marvelous Designer: Revolutionizing the 3D Clothing{" "}
+                </text>
+              
+            </div>
+          </div>
+        
+      </div>
+      
+    
+  );
+};
 
-  )
-}
-
-export default SectionFiveHome
+export default SectionFiveHome;

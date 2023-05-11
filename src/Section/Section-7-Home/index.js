@@ -1,16 +1,27 @@
 import React from 'react'
-import { Sec6 } from '../../Assets'
+import { SupportHand } from '../../Assets'
 import './style.css'
+
 const SectionSevenHome = () => {
   return (
-    <div className='py-5 border container rounded'>
-        <div className='row m-0 p-0'>
-            <div className='col-lg-6 col-md-6 col-12'>
-            
-            </div>
-            <div className='col-lg-6 col-md-6 col-12'></div>
+    <section className="py-5">
+   
+    <div className="container contAreaSec">
+      <div className="row">
+        <div className="col-lg-9 col-md-9 col-8 contentArea d-flex justify-content-center flex-column">
+          <h2 className='ps-3'>We support You</h2>
+          <p className='ps-3'>
+           
+        We are taking action to help our freelancers, our clients, and the people of all around the world so can you.
+      
+          </p>
         </div>
+        <div className="col-lg-3 col-md-3 col-4 ">
+          <img src={SupportHand} alt="" className="img-fluid fluid d-block mx-auto " style={{height:"100%"}}/>
+        </div>
+      </div>
     </div>
+  </section>
   )
 }
 
