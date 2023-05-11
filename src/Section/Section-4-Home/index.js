@@ -31,7 +31,8 @@ function SectionFourHome() {
         height: "auto",
       }}
     >
-      <div className="col-12 col-md-6 col-lg-7 col-xl-8 px-2 py-4">
+      <div className="col-12 col-md-6 col-lg-7 col-xl-7 ps-5 py-4 d-flex justify-content-center flex-column">
+      
         <h2 style={{ fontSize: "35px", fontWeight: "bolder", color: baseColors.white, }}>
           Exceptional customer service creates happy customers
         </h2>
@@ -45,14 +46,17 @@ function SectionFourHome() {
           Work with sparkspot to manage your organization’s customer service needs
           big or small
         </h5>
+        <div>
         <GradientButton
           title="Sign in"
           color={baseColors.white}
           backgroundColor1={baseColors.primaryColor}
           backgroundColor2={baseColors.secondaryColor}
         />
+        </div>
+        
       </div>
-      <div className="col-12 col-md-6 col-lg-5 col-xl-4 d-none d-md-block">
+      <div className="col-12 col-md-6 col-lg-5 col-xl-5 d-none d-md-block text-end">
         <img src={LiveImage1} style={{ height: "100%", maxWidth: "95%" }} />
       </div>
     </div>

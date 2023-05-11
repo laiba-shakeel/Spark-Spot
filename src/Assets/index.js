@@ -20,6 +20,9 @@ import GoogleIcon from "./GoogleIcon.png"
 import Nasdaq from "./nasdaq-light.svg"
 import ImageSignUp from "./ImageSignup.jpg"
 import bggrad from "./bg-grad.jpg"
+import PersonImageOne from "./PersonImageOne.jpg"
+import PersonImageTwo from "./PersonImageTwo.jpg"
+import PersonImageTwoHorizental from "./PersonImageTwohorizental.jpg"
 
 
 export {
@@ -45,4 +48,7 @@ export {
     Nasdaq,
     ImageSignUp,
     bggrad,
+    PersonImageOne,
+    PersonImageTwo,
+    PersonImageTwoHorizental
 }

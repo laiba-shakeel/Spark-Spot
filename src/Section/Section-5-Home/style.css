@@ -4,7 +4,7 @@
   width: 100%;
   /* background-size: 100% 25rem; */
   background-size: cover;
-  height: 23rem;
+  height: 25rem;
   background-repeat: no-repeat;
 
 }
@@ -30,7 +30,8 @@
 
 .blogItem {
   background: linear-gradient(to right, #ffffff, #ffffff);
-  height: 20vh;
+  height: 150px;
+  width: 25vw;
   text-align: center;
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 padding: 25px 35px 25px 35px;
