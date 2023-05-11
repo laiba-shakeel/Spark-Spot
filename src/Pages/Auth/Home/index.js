@@ -19,7 +19,7 @@ function Home() {
       <SectionThreeHome />
       <SectionFourHome />
       <SectionFiveHome />
-      {/* <SectionSixHome /> */}
+      <SectionSixHome />
       <SectionCarousel />
       <SectionSevenHome />
     </Layout>
