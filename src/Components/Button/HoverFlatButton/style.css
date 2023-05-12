@@ -1,0 +1,12 @@
+.buttonHover {
+    background-color: transparent; 
+    color: #ff3b33; 
+    border: 2px solid #ff3b33;
+    width: 150px;
+    height: 40px;
+  }
+  
+  .buttonHover:hover {
+    background-color: #ff3b33;
+    color: white;
+  }

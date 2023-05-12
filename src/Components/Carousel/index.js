@@ -147,7 +147,7 @@ export default class Resizable extends Component {
                   className="row m-0 "
                 >
                   <div className="col-8 p-0">
-                    <img src={ImageSignUp} width="235px" style={{borderRadius:5}}/>
+                    <img src={ImageSignUp} width="205px" style={{borderRadius:5}}/>
                   </div>
 
                   <div className="col-4">

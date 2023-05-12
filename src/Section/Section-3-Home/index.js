@@ -31,8 +31,8 @@ function SectionThreeHome() {
         </div>
         
           <div className="row d-flex justify-content-center align-items-center m-0 py-2">
-            {TalentCategoryCardData.map((car_items) => {
-              return <TalentCategoryCard data={car_items} />;
+            {TalentCategoryCardData.map((card_items) => {
+              return <TalentCategoryCard data={card_items} />;
             })}
         </div>
       </div>

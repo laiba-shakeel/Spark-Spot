@@ -9,11 +9,11 @@ function RightImageFragment() {
     <div
       className="row container  my-5 rounded-3 p-0"
       style={{
-        background: baseColors.primaryColor,
+        background: `linear-gradient(to bottom right, ${baseColors.primaryColor} 0%, ${baseColors.primaryColorThree} 65%)`,
       }}
     >
       <div
-        className="col-12 d-block d-md-none p-0"
+        className="col-12 d-block d-md-none p-2"
         style={
           {
             // border:"2px solid blue"
@@ -28,7 +28,7 @@ function RightImageFragment() {
           // className='rounded-right border'
           style={{
             width: "100%",
-            height: "50vh",
+            height: "30vh",
             backgroundSize: "cover",
             borderTopRightRadius: "5px",
             borderTopLeftRadius: "5px",
@@ -94,7 +94,7 @@ find good company.
             </div>
       </div>
 
-      <div className="col-md-3 col-lg-4 d-none d-md-block p-0"
+      <div className="col-md-3 col-lg-4 d-none d-md-block p-3"
         style={
           {
             // border:"2px solid blue"
@@ -111,8 +111,7 @@ find good company.
             width: "100%",
             height:"100%",
             backgroundSize: "cover",
-            borderTopRightRadius: "5px",
-            borderBottomRightRadius: "5px",
+            borderRadius:"10px"
           }}
         />
       </div>

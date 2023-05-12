@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../../../Layouts/BasicLayout/index";
-import PagesMenu from "../../../Components/PagesMenu/index";
 import SectionOneHome from "../../../Section/Section-1-Home/index";
 import SectionTwoHome from "../../../Section/Section-2-Home";
 import SectionThreeHome from "../../../Section/Section-3-Home";
@@ -13,7 +12,6 @@ import SectionSixHome from "../../../Section/Section-6-Home";
 function Home() {
   return (
     <Layout>
-      <PagesMenu />
       <SectionOneHome />
       <SectionTwoHome />
       <SectionThreeHome />

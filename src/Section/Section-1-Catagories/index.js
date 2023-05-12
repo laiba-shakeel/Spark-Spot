@@ -1,10 +1,9 @@
 import React from 'react'
 import './style.css'
+import RightFragment from '../../Components/Rightfragment'
 const SectionOneCatagory = () => {
   return (
-    <div>
-      
-    </div>
+    <RightFragment />
   )
 }
 
