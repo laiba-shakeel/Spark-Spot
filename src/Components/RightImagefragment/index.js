@@ -28,7 +28,7 @@ function RightImageFragment() {
           // className='rounded-right border'
           style={{
             width: "100%",
-            height: "30vh",
+            height: "50vh",
             backgroundSize: "cover",
             borderTopRightRadius: "5px",
             borderTopLeftRadius: "5px",
@@ -109,7 +109,7 @@ find good company.
           // className='rounded-right border'
           style={{
             width: "100%",
-            height:"65vh",
+            height:"100%",
             backgroundSize: "cover",
             borderTopRightRadius: "5px",
             borderBottomRightRadius: "5px",

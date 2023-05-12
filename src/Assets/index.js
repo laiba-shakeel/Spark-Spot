@@ -17,19 +17,16 @@ import LiveImage1 from "./Live-Image1.png"
 import BackgroundBanner from "./BackgroundBanner.gif"
 import SupportHand from "./SupportHand.png"
 import GoogleIcon from "./GoogleIcon.png"
-<<<<<<< HEAD
 import Sec6 from './sec6.jpg'
 import Sec7 from './sec7.png'
 import Sec8 from './sec8.png'
 import Sec9 from './sec9.jpeg'
-=======
 import Nasdaq from "./nasdaq-light.svg"
 import ImageSignUp from "./ImageSignup.jpg"
 import bggrad from "./bg-grad.jpg"
 import PersonImageOne from "./PersonImageOne.jpg"
 import PersonImageTwo from "./PersonImageTwo.jpg"
 import PersonImageTwoHorizental from "./PersonImageTwohorizental.jpg"
->>>>>>> 6c5110eece1abbb21b64d144763905a8e7394913
 
 
 export {
@@ -52,17 +49,14 @@ export {
     LiveImage1,
     SupportHand,
     GoogleIcon,
-<<<<<<< HEAD
     Sec6,
     Sec7,
     Sec8,
-    Sec9
-=======
+    Sec9,
     Nasdaq,
     ImageSignUp,
     bggrad,
     PersonImageOne,
     PersonImageTwo,
     PersonImageTwoHorizental
->>>>>>> 6c5110eece1abbb21b64d144763905a8e7394913
 }
