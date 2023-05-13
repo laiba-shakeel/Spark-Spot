@@ -19,7 +19,7 @@ import SupportHand from "./SupportHand.png"
 import GoogleIcon from "./GoogleIcon.png"
 import Sec6 from './sec6.jpg'
 import Sec7 from './sec7.png'
-import Sec8 from './sec8.png'
+import Sec8 from './sec8.jpg'
 import Sec9 from './sec9.jpeg'
 import Nasdaq from "./nasdaq-light.svg"
 import ImageSignUp from "./ImageSignup.jpg"
@@ -27,11 +27,12 @@ import bggrad from "./bg-grad.jpg"
 import PersonImageOne from "./PersonImageOne.jpg"
 import PersonImageTwo from "./PersonImageTwo.jpg"
 import PersonImageTwoHorizental from "./PersonImageTwohorizental.jpg"
-import Sec41 from "./sec41.png"
+import Sec41 from "./mob-dev.jpg"
 import Sec42 from"./sec42.avif"
-import Sec43 from "./sec43.avif"
-import Sec45 from "./sec45.avif"
-import sec56 from "./sec56.avif"
+import Sec43 from "./unsplash.jpg"
+import Sec45 from "./data-vis.jpg"
+import Sec46 from "./machine-learning.jpg"
+import Sec47 from "./CyberSecurity.jpg"
 
 export {
     AppLogo,
@@ -67,5 +68,6 @@ export {
     Sec42,
     Sec43,
     Sec45,
-    sec56
+    Sec46,
+    Sec47,
 }

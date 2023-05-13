@@ -1,8 +1,9 @@
 .MainDiv{
-    border: 1px solid #f2f7f2;
-    height: 40vh;
+    height: 45vh;
     border-radius: 15px;
-    background-color: #f2f7f2;
+    background: linear-gradient(to left, #ffffff 0%, #f1eaf9  100%);
+    
+    /* background-color:linear-gradient(to left, #ffffff 0%, #fccbca 100%); */
    
 }
 .fonts{
@@ -13,4 +14,10 @@
 .fonts:hover{
     color: #ada0a0;
     font-size: 16px;
+}
+.backImage{
+    background-image: url("../../../src/Assets/Banner5.webp");
+    width: 100%;
+  background-size: cover;
+  height: 20rem;
 }
