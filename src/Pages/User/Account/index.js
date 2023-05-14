@@ -1,10 +1,10 @@
 import React from 'react'
 import UserAccountLayout from '../../../Layouts/UserAccountLayout'
 
-function UserHome() {
+function UserAccount() {
   return (
     <UserAccountLayout />
   )
 }
 
-export default UserHome
+export default UserAccount

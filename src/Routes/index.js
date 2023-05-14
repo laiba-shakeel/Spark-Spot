@@ -7,8 +7,12 @@ import SignUpClient from '../Pages/Client/SignUp';
 import SignInClient from '../Pages/Client/SigIn';
 import SignInUser from '../Pages/User/SigIn';
 import DevelopmentAndIt from '../Pages/Auth/DevelopmentAndIT';
-import UserHome from '../Pages/User/Home';
-import ClientHome from '../Pages/Client/Home';
+import UserAccount from '../Pages/User/Account';
+import ClientAccount from '../Pages/Client/Account';
+import ClientFindTalent from '../Pages/Client/FindTalent';
+import ClientOrders from '../Pages/Client/Orders';
+import ClientPaymentMethod from '../Pages/Client/PaymentMethod';
+import ClientSupport from '../Pages/Client/Support';
 
 const index = () => {
   return (
@@ -20,8 +24,13 @@ const index = () => {
       <Route exact path="signup-client" element={<SignUpClient/>}/>
       <Route exact path="signin-user" element={<SignInUser/>}/>
       <Route exact path="signin-client" element={<SignInClient/>}/>
-      <Route exact path='user-Home' element={<UserHome />} />
-      <Route exact path='client-Home' element={<ClientHome />} />
+      <Route exact path="development-IT" element={<DevelopmentAndIt/>}/>
+      <Route exact path="user-account" element={<UserAccount />} />
+      <Route exact path="client-account" element={<ClientAccount />} />
+      <Route exact path="client-find-talent" element={<ClientFindTalent/>}/>
+      <Route exact path="client-orders" element={<ClientOrders/>}/>
+      <Route exact path="client-payment-method" element={<ClientPaymentMethod/>}/>
+      <Route exact path="client-support" element={<ClientSupport/>}/>
       {/* <Route exact path="" element={</>}/> */}
     </Routes>
     

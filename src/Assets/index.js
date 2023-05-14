@@ -33,6 +33,8 @@ import Sec43 from "./unsplash.jpg"
 import Sec45 from "./data-vis.jpg"
 import Sec46 from "./machine-learning.jpg"
 import Sec47 from "./CyberSecurity.jpg"
+import DummyPerson from "./DummyPerson.png"
+import PaymentMethod from "./payment-method.png"
 
 export {
     AppLogo,
@@ -70,4 +72,6 @@ export {
     Sec45,
     Sec46,
     Sec47,
+    DummyPerson,
+    PaymentMethod
 }

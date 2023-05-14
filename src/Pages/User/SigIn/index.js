@@ -7,7 +7,7 @@ function SignInUser() {
   return (
     <SignInLayout
     title="Continue with Email"
-    onClick={() => Navigate('/user-Home')}
+    onClick={() => Navigate('/user-account')}
     />
   )
 }

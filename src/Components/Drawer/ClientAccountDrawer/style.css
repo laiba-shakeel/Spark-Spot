@@ -1,0 +1,38 @@
+
+  
+  .primary-Drawer-menu-link:hover {
+    color: #ff3b33 !important;
+  }
+  
+  .primary-Drawer-menu {
+    border-bottom: none !important;
+  }
+  
+  .primary-Drawer-menu-item {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* .primary-Drawer-menu-item.active, */
+  .primary-Drawer-menu-item:hover {
+    color: #ff3b33 !important;
+  }
+
+  /* .primary-Drawer-menu-item:hover {
+    background-color: #f0f2f5;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+  }
+  
+  .primary-Drawer-menu-item.active,
+  .primary-Drawer-menu-item:hover {
+    color: #1877f2;
+    border-bottom: 1px solid #1877f2;
+    border-bottom-width: 3px;
+    background-color: #f8f9fa;
+  } */
+  
+  
+  
