@@ -6,7 +6,7 @@ import { GoogleIcon } from "../../../Assets";
 import InputField from "../../InputField";
 import { useNavigate } from "react-router-dom";
 
-function SignInForm() {
+function SignInForm({children}) {
   const navigate = useNavigate();
   return (
     <div
@@ -38,16 +38,9 @@ function SignInForm() {
               }}
             >
               <div className=" d-flex justify-content-center align-items-center ">
-                <text
-                  className="px-1"
-                  style={{
-                    fontSize: "15px",
-                    fontWeight: "500",
-                    color: baseColors.white,
-                  }}
-                >
-                  Continue with Email
-                </text>
+               
+                  {children}
+                 
               </div>
             </FormButton>
           </div>

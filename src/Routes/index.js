@@ -7,6 +7,9 @@ import SignUpClient from '../Pages/Client/SignUp';
 import SignInClient from '../Pages/Client/SigIn';
 import SignInUser from '../Pages/User/SigIn';
 import DevelopmentAndIt from '../Pages/Auth/DevelopmentAndIT';
+import UserHome from '../Pages/User/Home';
+import ClientHome from '../Pages/Client/Home';
+
 const index = () => {
   return (
     
@@ -17,7 +20,8 @@ const index = () => {
       <Route exact path="signup-client" element={<SignUpClient/>}/>
       <Route exact path="signin-user" element={<SignInUser/>}/>
       <Route exact path="signin-client" element={<SignInClient/>}/>
-      <Route exact path='development-IT' element={<DevelopmentAndIt />} />
+      <Route exact path='user-Home' element={<UserHome />} />
+      <Route exact path='client-Home' element={<ClientHome />} />
       {/* <Route exact path="" element={</>}/> */}
     </Routes>
     

@@ -1,9 +1,15 @@
 import React from 'react'
 import SignInLayout from '../../../Layouts/SignInLayout'
+import { useNavigate } from "react-router-dom";
+
 
 function SignInClient() {
+  const Navigate = useNavigate()
   return (
-    <SignInLayout />
+    <SignInLayout 
+    title="Continue with Email"
+    onClick={() => Navigate('/client-Home')}
+    />
   )
 }
 
