@@ -1,7 +1,7 @@
 import React from 'react'
 import { Layout } from "antd";
-import AppHeader from '../../Components/Header'
-import AppFooter from '../../Components/Footer'
+import GuestHeader from '../../Components/Header/GuestHeader'
+import GuestFooter from '../../Components/Footer/GuestFooter'
 import PagesMenu from "../../Components/PagesMenu/index";
 
 
@@ -21,7 +21,7 @@ function BasicLayout({children}) {
           }}
           className="position-sticky fixed-top"
         >
-          <AppHeader />
+          <GuestHeader />
           
         </Header>
         <Content
@@ -46,7 +46,7 @@ function BasicLayout({children}) {
             backgroundColor: "white",
           }}
         >
-          <AppFooter />
+          <GuestFooter />
         </Footer>
       </Layout>
     </div>

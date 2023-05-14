@@ -5,15 +5,15 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import GradientButton from "../Button/GradientButton/index";
+import GradientButton from "../../Button/GradientButton/index";
 import { SearchOutlined } from "@ant-design/icons";
-import { AppLogo } from "../../Assets";
-import baseColors from "../../Constant/color";
+import { AppLogo } from "../../../Assets";
+import baseColors from "../../../Constant/color";
 import { useNavigate } from 'react-router'
 
 import "./headerStyles.css";
 
-function AppHeader() {
+function GuestHeader() {
   const navigate = useNavigate()
   return (
     <>
@@ -91,4 +91,4 @@ function AppHeader() {
   );
 }
 
-export default AppHeader;
+export default GuestHeader;

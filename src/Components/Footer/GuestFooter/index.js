@@ -1,6 +1,6 @@
 import React from "react";
 // import { useNavigate } from "react-router";
-import baseColors from "../../Constant/color";
+import baseColors from "../../../Constant/color";
 import {
     FacebookOutlined,
     InstagramOutlined,
@@ -29,7 +29,7 @@ const style = {
 //     borderBottomWidth: "10px",
 //   }
 };
-function AppFooter() {
+function GuestFooter() {
   // const navigate = useNavigate()
 
   return ( 
@@ -113,4 +113,4 @@ function AppFooter() {
     </div>
   );
 }
-export default AppFooter;
+export default GuestFooter;

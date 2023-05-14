@@ -1,5 +1,5 @@
 .MainDiv{
-    height: 45vh;
+    height: 70vh auto;
     border-radius: 15px;
     background: linear-gradient(to left, #ffffff 0%, #f1eaf9  100%);
     
@@ -19,5 +19,5 @@
     background-image: url("../../../src/Assets/Banner5.webp");
     width: 100%;
   background-size: cover;
-  height: 20rem;
+  height: 15rem ;
 }

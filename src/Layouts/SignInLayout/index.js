@@ -1,7 +1,7 @@
 import React from "react";
 import baseColors from "../../Constant/color";
 import SignInForm from "../../Components/form/SignInForm";
-import MinorFooter from "../../Components/MinorFooter";
+import MinorFooter from "../../Components/Footer/MinorFooter";
 import { AppLogo } from "../../Assets";
 
 function SignInLayout() {

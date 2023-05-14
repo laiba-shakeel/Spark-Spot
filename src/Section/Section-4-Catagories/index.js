@@ -10,22 +10,22 @@ const SectionFourCatagory = () => {
       <div className="row d-flex justify-content-center m-0">
         <div className="col-12 col-md-3 d-flex flex-column justify-content-around align-items-center">
           <div className="row">
-            <p className="fonts" onClick={() => setSelected(Sec41)}>
+            <p className="fonts " onClick={() => setSelected(Sec41)}>
               Mobile App Development
             </p>
-            <p className="fonts d-none d-md-block" onClick={() => setSelected(Sec8)}>
+            <p className="fonts d-none d-md-block " onClick={() => setSelected(Sec8)}>
               Shopify Development
             </p>
-            <p className="fonts d-none d-md-block" onClick={() => setSelected(Sec43)}>
+            <p className="fonts d-none d-md-block " onClick={() => setSelected(Sec43)}>
               Wordpress Development
             </p>
-            <p className="fonts d-none d-md-block" onClick={() => setSelected(Sec45)}>
+            <p className="fonts d-none d-md-block " onClick={() => setSelected(Sec45)}>
               Data Visualization
             </p>
-            <p className="fonts d-none d-md-block" onClick={() => setSelected(Sec46)}>
+            <p className="fonts d-none d-md-block " onClick={() => setSelected(Sec46)}>
               Machine Learning
             </p>
-            <p className="fonts d-none d-md-block" onClick={() => setSelected(Sec47)}>
+            <p className="fonts d-none d-md-block " onClick={() => setSelected(Sec47)}>
               CyberSecurity & Data Protection
             </p>
           </div>
@@ -38,7 +38,7 @@ const SectionFourCatagory = () => {
             src={selected}
             style={{
               width: "100%",
-              height: "45vh",
+              height: "auto",
               backgroundSize: "contain",
               borderTopRightRadius: "5px",
               borderBottomRightRadius: "5px",

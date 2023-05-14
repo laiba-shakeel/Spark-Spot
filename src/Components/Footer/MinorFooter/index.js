@@ -1,6 +1,6 @@
 import React from "react";
 // import { useNavigate } from "react-router";
-import baseColors from "../../Constant/color";
+import baseColors from "../../../Constant/color";
 
 const style = {
   footer: {
