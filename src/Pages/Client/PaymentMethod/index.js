@@ -3,7 +3,7 @@ import ClientAccountLayout from '../../../Layouts/ClientAccountLayout'
 import baseColors from "../../../Constant/color"
 import { PaymentMethod } from "../../../Assets";
 import GradientButton from '../../../Components/Button/GradientButton';
-import { HiArrowRight } from "react-icons/hi";
+// import { HiArrowRight } from "react-icons/hi";
 
 function ClientPaymentMethod() {
   return (
