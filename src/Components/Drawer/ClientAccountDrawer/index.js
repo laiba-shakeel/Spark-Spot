@@ -9,7 +9,7 @@ function ClientAccountDrawer() {
       style={{background:baseColors.white}}
     >
       <ul className="navbar-nav px-2 row" style={{background:baseColors.white}}>
-        <li className="d-flex align-item-center justify-content-start py-1">
+        <li className="d-flex align-item-center justify-content-start py-1" eventKey="link-1">
           <a
             className="nav-link active primary-Drawer-menu-item"
             href="/client-account"
