@@ -2,7 +2,11 @@ import React from "react";
 import ClientAccountLayout from "../../../Layouts/ClientAccountLayout";
 import baseColors from "../../../Constant/color";
 import { PaymentMethod } from "../../../Assets";
+<<<<<<< HEAD
 import GradientButton from "../../../Components/Button/GradientButton";
+=======
+import GradientButton from '../../../Components/Button/GradientButton';
+>>>>>>> 0554c1f846b93fb34e42581836e93a049b36d3a7
 // import { HiArrowRight } from "react-icons/hi";
 
 function ClientPaymentMethod() {

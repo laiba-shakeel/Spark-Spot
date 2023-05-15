@@ -88,12 +88,14 @@ function SignInForm({children}) {
               <div className="row d-flex justify-content-center align-items-center m-0 ">
                 <div className="col-1 p-0 d-flex justify-content-center m-0 ">
                   <img
+                   alt=""
                     src={GoogleIcon}
                     style={{
                       width: "42px",
                       height: "32px",
                       borderRadius: "50%",
                       padding: 2,
+                     
                     }}
                   />
                 </div>
