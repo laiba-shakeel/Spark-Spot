@@ -1,14 +1,15 @@
 import React from "react";
 import ClientAccountLayout from "../../../Layouts/ClientAccountLayout";
 import baseColors from "../../../Constant/color";
-import { DummyPerson } from "../../../Assets";
+import {  AnalyizeDashboard, CircleOverviewDashboard, DummyPerson } from "../../../Assets";
 import { HiArrowRight } from "react-icons/hi";
 
 function ClientAccount() {
   return (
     <ClientAccountLayout title="My Account">
+      <div className="col-4 d-flex justify-content-center align-items-center flex-column">
       <div
-        className="shadow-sm Accountcard row p-0 p-1 "
+        className="shadow Accountcard row p-0 p-1 "
         style={{
           height: "180px",
           width: "350px",
@@ -46,6 +47,14 @@ function ClientAccount() {
           </div>
         </div>
       </div>
+      </div>
+      <div className="col-4 d-flex justify-content-center align-items-end flex-column">
+       <img src={AnalyizeDashboard} style={{borderRadius:"20px",  height:"30vh" }} className="shadow"/>
+      </div>
+      <div className="col-4 d-flex justify-content-center align-items-center flex-column">
+       <img src={CircleOverviewDashboard} style={{borderRadius:"20px", }} className="shadow"/>
+      </div>
+      
     </ClientAccountLayout>
   );
 }

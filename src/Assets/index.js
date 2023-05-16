@@ -35,10 +35,16 @@ import Sec46 from "./machine-learning.jpg"
 import Sec47 from "./CyberSecurity.jpg"
 import DummyPerson from "./DummyPerson.png"
 import PaymentMethod from "./payment-method.png"
+<<<<<<< HEAD
+import AnalyizeDashboard from "./analyize-dashboard.jpg"
+import CircleOverviewDashboard from "./circle-overview-dashboard.jpg"
+import CatogoriesOrder from "./catogries-dashboard.jpg"
+=======
 import writerF from "./writerF.avif" 
 import uiDesign from "./uiDesign.avif"
 import ContentWriter from "./contentWriter.png"
 import DesignerUI from "./DesignerUI.png"
+>>>>>>> 53bed623364f2f29549479da66f1c5d4dadce98c
 
 export {
     AppLogo,
@@ -78,8 +84,14 @@ export {
     Sec47,
     DummyPerson,
     PaymentMethod,
+<<<<<<< HEAD
+    AnalyizeDashboard,
+    CircleOverviewDashboard,
+    CatogoriesOrder
+=======
     writerF,
     uiDesign,
     DesignerUI,
     ContentWriter
+>>>>>>> 53bed623364f2f29549479da66f1c5d4dadce98c
 }
