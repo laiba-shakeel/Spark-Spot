@@ -35,6 +35,9 @@ import Sec46 from "./machine-learning.jpg"
 import Sec47 from "./CyberSecurity.jpg"
 import DummyPerson from "./DummyPerson.png"
 import PaymentMethod from "./payment-method.png"
+import AnalyizeDashboard from "./analyize-dashboard.jpg"
+import CircleOverviewDashboard from "./circle-overview-dashboard.jpg"
+import CatogoriesOrder from "./catogries-dashboard.jpg"
 
 export {
     AppLogo,
@@ -73,5 +76,8 @@ export {
     Sec46,
     Sec47,
     DummyPerson,
-    PaymentMethod
+    PaymentMethod,
+    AnalyizeDashboard,
+    CircleOverviewDashboard,
+    CatogoriesOrder
 }
