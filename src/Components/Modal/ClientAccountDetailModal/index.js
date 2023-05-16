@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Children, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import baseColors from '../../../Constant/color';
@@ -6,18 +6,23 @@ import ClientAccountDetailForm from '../../form/ClientAccountDetailForm';
 import GradientButton from "../../Button/GradientButton"
 import { useNavigate } from "react-router-dom";
 
-function ClientAccountDetailModal() {
+function ClientAccountDetailModal({children}) {
 
   const Navigate = useNavigate();
+
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+    setShow(true);
+    // () => Navigate('/client-account')
+  };
 
   return (
     <>
 
       <text
-        variant="primary" onClick={handleShow}
+        variant="primary" 
+        onClick={handleShow}
         className="px-1"
         style={{
           fontSize: "15px",
@@ -29,7 +34,9 @@ function ClientAccountDetailModal() {
       </text>
 
 
-      <Modal show={show} onHide={handleClose} size="lg">
+      <Modal show={show} 
+      onHide={handleClose} 
+      size="lg">
 
         <Modal.Header closeButton>
           <Modal.Title>Account Detail</Modal.Title>
@@ -38,15 +45,13 @@ function ClientAccountDetailModal() {
           <ClientAccountDetailForm />
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary" 
+          onClick={handleClose}
+          >
             Close
           </Button>
-          <GradientButton variant="primary" onClick={() => Navigate('')}
-            title="Save Changes"
-            color={baseColors.white}
-            backgroundColor1={baseColors.primaryColor}
-            backgroundColor2={baseColors.secondaryColor}
-          />
+          {children}
+          
         </Modal.Footer>
       </Modal>
     </>

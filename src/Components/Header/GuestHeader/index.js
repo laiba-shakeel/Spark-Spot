@@ -10,6 +10,7 @@ import { SearchOutlined } from "@ant-design/icons";
 import { AppLogo } from "../../../Assets";
 import baseColors from "../../../Constant/color";
 import { useNavigate } from 'react-router'
+import DropdownMenu from "../../Dropdown";
 
 import "./headerStyles.css";
 
@@ -46,26 +47,16 @@ function GuestHeader() {
                 </Nav>
                 <Nav className="justify-content-end align-items-center flex-grow-2 pe-3">
                 <Form className="d-flex justify-content-center d-none d-xl-block">
-                <div className="input-group m-0 Search-main row">
+                <div className="input-group m-0 Search-main row d-flex align-items-center ">
                 <input
                   type="text"
                   className="form-control fill col-8 Search-div"
                   placeholder="Search"
                 />
-                <div className="d-flex justify-content-center align-items-center col-4 Search-dropdown">
-                <NavDropdown
-                    title="Talent"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    <NavDropdown.Item href="#action5" >Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action6">
-                      Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action7">
-                      Something else here
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                <div className="d-flex justify-content-center align-items-center col-4 Search-dropdown ">
+                <DropdownMenu 
+                  title="more"
+                  />
                 </div>
               </div>
                 </Form>

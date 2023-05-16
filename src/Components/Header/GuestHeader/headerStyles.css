@@ -119,21 +119,17 @@ input::placeholder {
   border-style: solid;
   background-color: #FFFFFF;
 }
-.Search-main:hover{
-  border-radius: 25px;
-  border-width:  2px;
-  border-color: #ede8e8;
-  border-style: solid;
-  background-color: #c7d9dc;
-}
+
 .Search-div{
-  height: 40px;
-  border-radius: 20px;
+  height: 38px;
   border-color: #ede8e8;
   background-color: #ede8e8;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px
 }
 .Search-div:hover{
-  border-radius: 20px;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px;
   background-color: #FFFFFF;
 }
 .Search-dropdown{

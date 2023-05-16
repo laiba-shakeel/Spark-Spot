@@ -31,7 +31,7 @@
   width: 15%;
 }
 
-.search-box {
+/* .search-box {
   background-color: #FBFBFB;
   width: 50vw;
   height: 6.5vh;
@@ -49,7 +49,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
+} */
 
 @media (min-width: 768px) {
   .search-box {
