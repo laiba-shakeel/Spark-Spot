@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import baseColors from '../../../Constant/color';
 import ClientAccountDetailForm from '../../form/ClientAccountDetailForm';
-import GradientButton from "../../Button/GradientButton"
+// import GradientButton from "../../Button/GradientButton"
 import { useNavigate } from "react-router-dom";
 
 function ClientAccountDetailModal({children}) {
@@ -50,8 +50,7 @@ function ClientAccountDetailModal({children}) {
           >
             Close
           </Button>
-          {children}
-          
+          {children}          
         </Modal.Footer>
       </Modal>
     </>
