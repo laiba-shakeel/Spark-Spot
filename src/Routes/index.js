@@ -13,7 +13,8 @@ import ClientFindTalent from '../Pages/Client/FindTalent';
 import ClientOrders from '../Pages/Client/Orders';
 import ClientPaymentMethod from '../Pages/Client/PaymentMethod';
 import ClientSupport from '../Pages/Client/Support';
-
+import TalentCard from '../Components/Cards/TalentCard';
+import PaymentMethodCard from "../Components/Cards/PaymentCard"
 const index = () => {
   return (
     
@@ -31,6 +32,8 @@ const index = () => {
       <Route exact path="client-orders" element={<ClientOrders/>}/>
       <Route exact path="client-payment-method" element={<ClientPaymentMethod/>}/>
       <Route exact path="client-support" element={<ClientSupport/>}/>
+      <Route exact path="talent-card" element={<TalentCard/>}/>
+      <Route exact path="payment-method" element={<PaymentMethodCard/>}/>
       {/* <Route exact path="" element={</>}/> */}
     </Routes>
     

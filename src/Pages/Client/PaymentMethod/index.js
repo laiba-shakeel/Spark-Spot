@@ -4,7 +4,6 @@ import baseColors from "../../../Constant/color";
 import { PaymentMethod } from "../../../Assets";
 import GradientButton from "../../../Components/Button/GradientButton";
 // import { HiArrowRight } from "react-icons/hi";
-
 function ClientPaymentMethod() {
   return (
     <ClientAccountLayout title="Payment Method">
@@ -13,7 +12,8 @@ function ClientPaymentMethod() {
           <img alt="" src={PaymentMethod} style={{ height: "50vh", width: "30vw" }} />
         </div>
         <div className="col-12 py-2 d-flex justify-content-start align-items-center  flex-column">
-          <GradientButton
+          <GradientButton 
+     
             title="Add Payment"
             color={baseColors.white}
             backgroundColor1={baseColors.primaryColor}
