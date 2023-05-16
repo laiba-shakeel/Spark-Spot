@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import HoverButton from "../../Components/Button/HoverFlatButton/index"
 // import bg from '../../Assets/bg-grad.jpg'
-import { Sec41, Sec42, Sec43, Sec45, Sec46, Sec47, Sec8 } from "../../Assets/index";
+import { Sec41, Sec43, Sec45, Sec46, Sec47, Sec8 } from "../../Assets/index";
 const SectionFourCatagory = () => {
   const [selected, setSelected] = React.useState(Sec43);
   return ( 
@@ -34,7 +34,8 @@ const SectionFourCatagory = () => {
           </div>
         </div>
         <div className=" col-md-9 d-none d-md-block p-0">
-          <img
+          <img 
+          alt=""
             src={selected}
             style={{
               width: "100%",
