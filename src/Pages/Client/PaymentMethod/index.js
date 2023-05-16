@@ -10,7 +10,7 @@ function ClientPaymentMethod() {
     <ClientAccountLayout title="Payment Method">
       <div className="row  m-0 d-flex justify-content-center align-items-start ">
         <div className="col-12 d-flex justify-content-center align-items-center">
-          <img src={PaymentMethod} style={{ height: "50vh", width: "30vw" }} />
+          <img alt="" src={PaymentMethod} style={{ height: "50vh", width: "30vw" }} />
         </div>
         <div className="col-12 py-2 d-flex justify-content-start align-items-center  flex-column">
           <GradientButton

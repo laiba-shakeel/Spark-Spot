@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import baseColors from '../../../Constant/color';
 import ClientAccountDetailForm from '../../form/ClientAccountDetailForm';
-// import GradientButton from "../../Button/GradientButton"
+import GradientButton from "../../Button/GradientButton"
 import { useNavigate } from "react-router-dom";
 
 function ClientAccountDetailModal({children}) {
@@ -36,23 +36,33 @@ function ClientAccountDetailModal({children}) {
 
       <Modal show={show} 
       onHide={handleClose} 
-      size="lg">
+      size="xl"
+      style={{border:"2px solid red"}}
+      >
 
-        <Modal.Header closeButton>
-          <Modal.Title>Account Detail</Modal.Title>
+        <Modal.Header className='py-0' closeButton style={{border:"2px solid red"}} >
+          <Modal.Title className='p-0'>Account Detail</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className='p-0'>
           <ClientAccountDetailForm />
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" 
-          onClick={handleClose}
-          >
-            Close
-          </Button>
-          {children}          
+        <Modal.Footer className='py-0'>
+          <div onClick={handleClose}>
+        <GradientButton 
+            variant="primary"
+            title=" Close"
+            color={baseColors.white}
+            backgroundColor1={baseColors.Grey}
+            backgroundColor2={baseColors.Grey}
+            
+          />  
+          </div>
+          {children}
+          
         </Modal.Footer>
       </Modal>
+
+
     </>
   );
 }

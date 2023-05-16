@@ -17,7 +17,7 @@ function ClientAccount() {
         }}
       >
         <div className="col-3 p-0 d-flex justify-content-center align-items-center  flex-column pb-4">
-          <img width="60px" height="60px" src={DummyPerson} />
+          <img alt="" width="60px" height="60px" src={DummyPerson} />
         </div>
         <div className="col-9 d-flex justify-content-center flex-column ">
           <h6 style={{ fontWeight: "bold", color: baseColors.white }}>
