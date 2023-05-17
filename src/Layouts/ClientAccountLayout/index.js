@@ -11,7 +11,7 @@ function ClientAccountLayout({children, title}) {
     <div className='col-12 p-0 m-0 d-flex justify-content-center flex-column shadow-sm' style={{height: "10vh", background: baseColors.white}}>
      <AccountHeader />
      </div>
-      <div className='col-3 col-xl-2 p-3 me-2 shadow-sm' style={{ background: baseColors.white,}} >
+      <div className='col-2 col-md-3 col-xl-2 p-3 me-2 shadow-sm' style={{ background: baseColors.white,}} >
         <ClientAccountDrawer />
       </div>
       <div className='col shadow-sm' style={{}}>

@@ -17,9 +17,9 @@ function SectionOneHome() {
                     <div className="col-12 col-lg-5 d-flex  align-items-center " >
                         <div className=" row py-lg-0 py-2" >
                             <h1 className="home-section-1-heading-1" style={{ color: baseColors.Dark }}>
-                            Hire the best
+                            Come Up with
                                 <h1 className="home-section-1-heading-2" style={{ color: baseColors.Dark }}>
-                                freelancers
+                                Happiness
                                 </h1>
                                 <h5 className="home-section-1-top-text" style={{ color: baseColors.Dark }}>
                                 Forget the old rules. You can have the best people.

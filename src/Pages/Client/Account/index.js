@@ -7,12 +7,12 @@ import { HiArrowRight } from "react-icons/hi";
 function ClientAccount() {
   return (
     <ClientAccountLayout title="My Account">
-      <div className="col-4 d-flex justify-content-center align-items-center flex-column">
+      <div className="col-6 col-xl-4 d-flex justify-content-center align-items-center flex-column">
       <div
         className="shadow Accountcard row p-0 p-1 "
         style={{
-          height: "180px",
-          width: "350px",
+          height: "32vh",
+          width: "100%",
           borderRadius: "5px",
           background: `linear-gradient(to right, ${baseColors.primaryColor} , ${baseColors.secondaryColor} )`,
         }}
@@ -48,11 +48,11 @@ function ClientAccount() {
         </div>
       </div>
       </div>
-      <div className="col-4 d-flex justify-content-center align-items-end flex-column">
-       <img src={AnalyizeDashboard} style={{borderRadius:"20px",  height:"30vh" }} className="shadow"/>
+      <div className="col-6 col-xl-4 d-flex justify-content-center align-items-end flex-column">
+       <img src={AnalyizeDashboard} style={{borderRadius:"20px",  height:"30vh" }} className="shadow img-fluid"/>
       </div>
-      <div className="col-4 d-flex justify-content-center align-items-center flex-column">
-       <img src={CircleOverviewDashboard} style={{borderRadius:"20px", }} className="shadow"/>
+      <div className="col-6 col-xl-4 d-flex justify-content-center align-items-center flex-column">
+       <img src={CircleOverviewDashboard} style={{borderRadius:"20px", }} className="shadow img-fluid"/>
       </div>
       
     </ClientAccountLayout>

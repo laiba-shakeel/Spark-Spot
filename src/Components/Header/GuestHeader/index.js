@@ -35,7 +35,7 @@ function GuestHeader() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img width="150px" height="40px" src={AppLogo} />
+                <img width="150px" height="40px" src={AppLogo} href="/"/>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

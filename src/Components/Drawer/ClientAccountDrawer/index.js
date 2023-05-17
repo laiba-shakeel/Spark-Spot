@@ -12,11 +12,12 @@ function ClientAccountDrawer() {
       <ul className="navbar-nav px-2 row" style={{background:baseColors.white}}>
         <li className="d-flex align-item-center justify-content-start py-1" eventKey="link-1">
           <a
-            className="nav-link active primary-Drawer-menu-item"
+            className="nav-link active primary-Drawer-menu-item "
             href="/client-account"
           >
             My Account
           </a>
+
         </li>
         <li className="d-flex align-item-center justify-content-start py-1">
           <a
