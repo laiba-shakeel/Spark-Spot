@@ -6,7 +6,7 @@ import baseColors from '../../../Constant/color'
 import InputField from '../../InputField'
 
 
-const ClientAccountDetailForm = () => {
+const AccountDetailForm = () => {
   return (
     <div>
       <div className="container px-4 mt-4">
@@ -83,5 +83,5 @@ const ClientAccountDetailForm = () => {
   )
 }
 
-export default ClientAccountDetailForm
+export default AccountDetailForm
 

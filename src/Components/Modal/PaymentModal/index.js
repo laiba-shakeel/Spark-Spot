@@ -2,7 +2,6 @@ import React, { Children, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import baseColors from "../../../Constant/color";
-import ClientAccountDetailForm from "../../form/ClientAccountDetailForm";
 import GradientButton from "../../Button/GradientButton";
 import { useNavigate } from "react-router-dom";
 import "./PaymentModal.css"
