@@ -37,6 +37,8 @@ const index = () => {
       <Route exact path="client-orders" element={<ClientOrders/>}/>
       <Route exact path="client-payment-method" element={<ClientPaymentMethod/>}/>
       <Route exact path="client-support" element={<ClientSupport/>}/>
+      <Route exact path="talent-card" element={<TalentCard/>}/>
+      <Route exact path="payment-method" element={<PaymentMethodCard/>}/>
       {/* <Route exact path="" element={</>}/> */}
     </Routes>
     

@@ -5,7 +5,6 @@ import { PaymentMethod } from "../../../Assets";
 import GradientButton from "../../../Components/Button/GradientButton";
 import PaymentModal from "../../../Components/Modal/PaymentModal";
 // import { HiArrowRight } from "react-icons/hi";
-
 function ClientPaymentMethod() {
   return (
     <ClientAccountLayout title="Payment Method">

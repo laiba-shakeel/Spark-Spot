@@ -1,7 +1,9 @@
 import React from 'react'
 import './style.css'
 import { ContentWriter , DesignerUI } from '../../../Assets'
+import { useNavigate } from "react-router-dom";
 const TalentCard = () => {
+  const navigate = useNavigate();
   return (
 
   <div className='row w-75'>
@@ -59,9 +61,9 @@ const TalentCard = () => {
                 </div>
                 <h6 className="text-success">Free Hosting Domain</h6>
                 <div className="d-flex flex-column mt-4">
-                  <button className="btn btn-primary btn-sm" type="button">Profile Details</button>
+                  <button className="btn btn-primary btn-sm" type="button"onClick={() => navigate('/payment-method')}>Payment here</button>
                   <button className="btn btn-outline-primary btn-sm mt-2" type="button">
-                    Hire for Work
+                   Hire em 
                   </button>
                 </div>
               </div>
