@@ -11,14 +11,11 @@ function Whyus() {
         <div className="container" style={{background:` linear-gradient(to bottom right, ${baseColors.primaryColor} 0%, ${baseColors.primaryColorThree} 65%)`}}>
           <div className="row  animate-in-down">
             <div className="p-4 col-md-6 align-self-center text-color">
-              <p className="m-0">Feel comfortable, and purchase items</p>
-              <h2>Discover the products</h2>
+              <p className="m-0 fw-bold fs-3">Discover how team works</p>
+              <h2>Our top Strategy</h2>
               <p className="my-4">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here
+                creativity, honesty, hard-work and authenticit are the values that are the main pillars of our sevices giving high-quality work is our main motive. We are providing the opportunity to everyone who has the potential to do something and show up their skills and give their
+                services with the help of this platform "Spark-Spot". Whearas, the people who need servies or want someone to get their work done can get the services according to their needs. Our teams creative mindsets are responsible for providing digital services at a time and know how to engage different customers at one time.
               </p>{" "}
               <HoverFlatButton title="Get Started"/>
               {/* <a href="#" className="btn mb-3 p-2 btn-light">
@@ -37,11 +34,10 @@ function Whyus() {
                
                 <div className="col-xl-6 col-lg-8">
                     <div className="title text-center">
-                        <h2>Our Services</h2>
-                        <p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu. Sed
-                            condimentum iaculis ex,
-                            in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a risus
-                            luctus dignissim.</p>
+                        <h2>Our Vission</h2>
+                        <p className="fs-4">
+                        We aim for innovating and create economic opportunity for every member of the global workflow.
+                     </p>
                         <div className="border"></div>
                     </div>
                 </div>
@@ -55,9 +51,7 @@ function Whyus() {
                             <i className="fa-regular fa-clone"></i>
                         </div>
                         <h3>WordPress Theme</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-                            tellus. Nullam
-                            iaculis arcu at mauris dapibus consectetur.</p>
+                        <p>Get 861 Freelancer Wordpress themes on her we offer you Digital wordpress themes. It enables to efficiently design custom layout</p>
                     </div>
                 </div>
                 
@@ -69,9 +63,7 @@ function Whyus() {
                             <i className="fa-regular fa-clock"></i>
                         </div>
                         <h3>Responsive Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-                            tellus. Nullam
-                            iaculis arcu at mauris dapibus consectetur.</p>
+                        <p>Hire the best Responsive design developers. Find the most talented responsive design developers on Fiverr to bring your ideas to life.</p>
                     </div>
                 </div>
                 
@@ -83,9 +75,7 @@ function Whyus() {
                             <i className="fa-solid fa-book"></i>
                         </div>
                         <h3>Media & Advertisement</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-                            tellus. Nullam
-                            iaculis arcu at mauris dapibus consectetur.</p>
+                        <p>The professional will create ad content of various advertising platforms.Find the most talented responsive design developers on Fiverr to bring your ideas to life</p>
                     </div>
                 </div>
                 
@@ -97,9 +87,7 @@ function Whyus() {
                             <i className="fa-solid fa-briefcase"></i>
                         </div>
                         <h3>Graphic Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-                            tellus. Nullam
-                            iaculis arcu at mauris dapibus consectetur.</p>
+                        <p>Hire the best Responsive design developers. Find the most talented responsive design developers on Fiverr to bring your ideas to life.</p>
                     </div>
                 </div>
                 
@@ -111,9 +99,7 @@ function Whyus() {
                             <i className="fa-solid fa-crop"></i>
                         </div>
                         <h3>Apps Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-                            tellus. Nullam
-                            iaculis arcu at mauris dapibus consectetur.</p>
+                        <p>The professional will create ad content of various advertising platforms.Find the most talented responsive design developers on Fiverr to bring your ideas to life</p>
                     </div>
                 </div>
                 
@@ -125,9 +111,7 @@ function Whyus() {
                             <i className="fa-solid fa-house-user"></i>
                         </div>
                         <h3>Networking</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-                            tellus. Nullam
-                            iaculis arcu at mauris dapibus consectetur.</p>
+                        <p>Get 861 Freelancer Wordpress themes on her we offer you Digital wordpress themes. It enables to efficiently design custom layout</p>
                     </div>
                 </div>
                 

@@ -1,41 +1,40 @@
 import React from "react";
 import "./FindWorkAuth.css";
 import Layout from "../../../Layouts/BasicLayout";
-import { AnimationBanner } from "../../../Assets";
+// import { AnimationBanner } from "../../../Assets";
 
 function FindWorkAuth() {
   return (
     <Layout>
       
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row " style={{ padding: "10px" }}>
-              <div class="col-xl-12">
-                <div class="cardTalent cssanimation fadeInBottom">
+      <div className="container py-5">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row " style={{ padding: "10px" }}>
+              <div className="col-xl-12">
+                <div className="cardTalent cssanimation fadeInBottom">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
                           <i
-                            class="fa fa-mobile "
+                            className="fa fa-mobile "
                             style={{fontSize: "40px"}}
                             aria-hidden="true"
                           ></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Min mobil eller tablet</h6>
+                          <h6>I Need a UI/UIX developer ($50)</h6>
                           <p>
-                            Hj&aelig;lp til fx vejledninger, reparation og
-                            forsikring
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -46,30 +45,30 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation2 fadeInBottom2">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation2 fadeInBottom2">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
                           <i
-                            class="fa fa-file-text-o"
+                            className="fa fa-file-text-o"
                             aria-hidden="true"
                           ></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Regning og forbrug</h6>
-                          <p>Hj&aelig;lp til fx udland, forbrug og betaling</p>
+                          <h6>I Need a React-JS developer ($10)</h6>
+                          <p>Work with our team, If you work correctly i`ll give you another benifits.`</p>
                         </div>
                       </div>
                     </div>
@@ -79,29 +78,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation3 fadeInBottom3">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-desktop" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-desktop" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Internet og tv</h6>
+                          <h6>I Need a Graphic Designer($60)</h6>
                           <p>
-                            Hj&aelig;lp til fx bredb&aring;nd, mobilt
-                            bredb&aring;nd og tv
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -112,32 +110,32 @@ function FindWorkAuth() {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-xl-12">
-                <div class="cardTalent cssanimation fadeInBottom">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-xl-12">
+                <div className="cardTalent cssanimation fadeInBottom">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
                           <i
-                            class="fas fa-sim-cardTalent"
+                            className="fas fa-sim-cardTalent"
                             aria-hidden="true"
                           ></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Abonnement og services</h6>
+                          <h6>I Need a Virtual Personal Assistant ($200)</h6>
                           <p>
-                            Hj&aelig;lp til fx SIM-kort, opsigelse og tilvalg
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -148,28 +146,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation2 fadeInBottom2">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation2 fadeInBottom2">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-signal" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-signal" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Drift og d&aelig;kning</h6>
+                          <h6>I Need a Angular and Vue.JS developer ($500)</h6>
                           <p>
-                            Driftsinformation og netv&aelig;rksd&aelig;kning
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -180,28 +178,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation3 fadeInBottom3">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-user-o" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>I Need a Personal Content Writer ($600)</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -212,28 +210,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation3 fadeInBottom3">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-user-o" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>I Need a Expert Mobile-App Dev ($100)</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -244,28 +242,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation3 fadeInBottom3">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-user-o" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>I Need a Virtual Assistant ($1000)</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -276,28 +274,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation3 fadeInBottom3">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-user-o" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>I Need a UI/UIX developer ($700)</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -308,28 +306,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation3 fadeInBottom3">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-user-o" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>I Need a Basic HTML-CSS3 JS developer ($800)</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -340,28 +338,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation3 fadeInBottom3">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-user-o" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>I Need a React-js Expert ($3000)</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>
@@ -372,28 +370,28 @@ function FindWorkAuth() {
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div class="row" style={{padding: "10px"}}>
-              <div class="col-md-12">
-                <div class="cardTalent cssanimation3 fadeInBottom3">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{padding: "10px"}}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
                   {" "}
                   <a href="#" target="_blank">
-                    <div class="cardTalent-body">
-                      <div class="row" id="blockitems">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
                         <div
-                          class="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
                           id="icons_section"
                         >
                           {" "}
-                          <i class="fa fa-user-o" aria-hidden="true"></i>{" "}
+                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
                         </div>
                         <div
-                          class="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>I Need a AI Pythone Engineer ($5000)</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Work with our team, If you work correctly i`ll give you another benifits.`
                           </p>
                         </div>
                       </div>

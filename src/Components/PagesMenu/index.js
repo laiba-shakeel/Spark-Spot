@@ -28,7 +28,7 @@ function HeaderMenu() {
             <li className="nav-item">
               <a
                 className="nav-link active primary-header-menu-item"
-                href="#Design-Creative"
+                href="/design-creative"
               >
                 Design & Creative
               </a>
@@ -36,7 +36,7 @@ function HeaderMenu() {
             <li className="nav-item">
               <a
                 className="nav-link active primary-header-menu-item"
-                href="#Sales-Marketing"
+                href="/sales-marketing"
               >
                 Sales & Marketing
               </a>
@@ -44,7 +44,7 @@ function HeaderMenu() {
             <li className="nav-item">
               <a
                 className="nav-link active primary-header-menu-item"
-                href="#Writing-Translation"
+                href="/writing-translation"
               >
                 Writing & Translation
               </a>
@@ -52,7 +52,7 @@ function HeaderMenu() {
             <li className="nav-item">
               <a
                 className="nav-link active primary-header-menu-item"
-                href="#Admin-Customer-Support"
+                href="/admin-support"
               >
                 Admin & Customer Support
               </a>

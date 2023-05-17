@@ -5,7 +5,7 @@ import { FormOutlined , MonitorOutlined , StarOutlined} from '@ant-design/icons'
 import "./style.css"
 import HoverFlatButton from "../Button/HoverFlatButton";
 
-function RightFragment() {
+function RightFragment(props) {
   return (
     <div
       className="row container  my-5 rounded-3 p-0"
@@ -47,8 +47,9 @@ find good company.
           }
         }
       >
-        <img
-          src={PersonImageTwo}
+        <img 
+        alt=""
+        src={props.imagePath}
           // className='rounded-right border'
           style={{
             width: "100%",

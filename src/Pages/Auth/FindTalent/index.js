@@ -33,10 +33,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Min mobil eller tablet</h6>
+                          <h6>UI/UIX Design and graphics</h6>
                           <p>
-                            Hj&aelig;lp til fx vejledninger, reparation og
-                            forsikring
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -69,8 +68,8 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Regning og forbrug</h6>
-                          <p>Hj&aelig;lp til fx udland, forbrug og betaling</p>
+                          <h6>Create outstanding Websites</h6>
+                          <p>Hire me! I`ll Provide you a best solution of your problems.</p>
                         </div>
                       </div>
                     </div>
@@ -99,10 +98,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Internet og tv</h6>
+                          <h6>WordPress Themes Providing</h6>
                           <p>
-                            Hj&aelig;lp til fx bredb&aring;nd, mobilt
-                            bredb&aring;nd og tv
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -136,9 +134,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Abonnement og services</h6>
+                          <h6>React Native Mob application</h6>
                           <p>
-                            Hj&aelig;lp til fx SIM-kort, opsigelse og tilvalg
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -168,9 +166,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Drift og d&aelig;kning</h6>
+                          <h6>Next-Js Responsive Website</h6>
                           <p>
-                            Driftsinformation og netv&aelig;rksd&aelig;kning
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -200,9 +198,40 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>Content Writing </h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Hire me! I`ll Provide you a best solution of your problems </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>{" "}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <div className="row" style={{ padding: "10px" }}>
+              <div className="col-md-12">
+                <div className="cardTalent cssanimation3 fadeInBottom3">
+                  {" "}
+                  <a href="#" target="_blank">
+                    <div className="cardTalent-body">
+                      <div className="row" id="blockitems">
+                        <div
+                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
+                          id="icons_section"
+                        >
+                          {" "}
+                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
+                        </div>
+                        <div
+                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
+                          id="heading_section"
+                        >
+                          <h6>Logos and Banners</h6>
+                          <p>
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -232,9 +261,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>Best HTML & CSS Websites</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -264,9 +293,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>Angular/Laraval </h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -296,9 +325,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>Spotify E-Commerce</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -328,9 +357,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>Nextjs and ReactJs</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                          Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>
@@ -360,41 +389,9 @@ function FindTalentAuth() {
                           className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
                           id="heading_section"
                         >
-                          <h6>Ny kunde</h6>
+                          <h6>Academic + Creative Writing</h6>
                           <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </a>{" "}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <div className="row" style={{ padding: "10px" }}>
-              <div className="col-md-12">
-                <div className="cardTalent cssanimation3 fadeInBottom3">
-                  {" "}
-                  <a href="#" target="_blank">
-                    <div className="cardTalent-body">
-                      <div className="row" id="blockitems">
-                        <div
-                          className="col-sm-3 col-md-1 col-lg-1 col-xl-1"
-                          id="icons_section"
-                        >
-                          {" "}
-                          <i className="fa fa-user-o" aria-hidden="true"></i>{" "}
-                        </div>
-                        <div
-                          className="col-sm-8 col-md-9 col-lg-11 col-xl-11"
-                          id="heading_section"
-                        >
-                          <h6>Ny kunde</h6>
-                          <p>
-                            Hj&aelig;lp til fx ny mobil, bestilling og Mit Telia
+                         Hire me! I`ll Provide you a best solution of your problems
                           </p>
                         </div>
                       </div>

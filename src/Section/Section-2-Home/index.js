@@ -8,7 +8,7 @@ function SectionTwoHome() {
   return (
     <div className="row container py-2 " >
       <div className="col-12 col-lg-6  py-5 " >
-        <img src={JoinUs} className="img-fluid" />
+        <img src={JoinUs} className="img-fluid" alt=""/>
       </div>
       <div className="col-12 col-lg-6 py-3 " >
         <h2 className="mb20 py-2" style={{color:baseColors.Dark}}>

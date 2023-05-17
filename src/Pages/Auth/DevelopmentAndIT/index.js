@@ -6,11 +6,12 @@ import SectionThreeCategories from '../../../Section/Section-3-Catagories';
 import SectionFourCatagory from '../../../Section/Section-4-Catagories'
 import SectionSixCategories from '../../../Section/Section-6-Catagories';
 
+
 function DevelopmentAndIt() {
   return (
   <>
 <Layout>
-  <SectionOneCatagory />
+  <SectionOneCatagory/>
   <SectionTwoCategories />
   <SectionThreeCategories />
   <SectionFourCatagory />
