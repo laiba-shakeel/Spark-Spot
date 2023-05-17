@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 function ClientAccountDetailModal() {
 
   const Navigate = useNavigate();
+
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -41,7 +42,7 @@ function ClientAccountDetailModal() {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <GradientButton variant="primary" onClick={() => Navigate('')}
+          <GradientButton variant="primary"  onClick={() => Navigate('')}
             title="Save Changes"
             color={baseColors.white}
             backgroundColor1={baseColors.primaryColor}
