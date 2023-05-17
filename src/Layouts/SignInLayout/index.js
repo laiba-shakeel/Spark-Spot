@@ -12,8 +12,8 @@ function SignInLayout({ children, onClick, title }) {
       style={{ height: "100vh" }}
     >
       <div className="row d-flex justify-content-start ps-2">
-        <div className="col-4">
-          <img alt="" width="100px" height="30px" src={AppLogo} />
+        <div className="col-4" >
+          <a href="/"><img alt="" width="100px" height="30px" src={AppLogo}  /></a>
         </div>
       </div>
       <div className="row">

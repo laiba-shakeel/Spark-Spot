@@ -1,12 +1,12 @@
 import React from 'react'
 import UserAccountLayout from '../../../Layouts/UserAccountLayout'
-import "./task.css"
+// import "./task.css"
 
 
 function UserTask() {
   return (
     <UserAccountLayout title="Task">
-      <div className="row" >
+      <div className="row d-none d-lg-block" >
       <div className="container" >
     
     

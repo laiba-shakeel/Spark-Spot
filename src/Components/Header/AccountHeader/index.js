@@ -12,8 +12,8 @@ function AccountHeader() {
         <Navbar  className="px-2 p-0 m-0" style={{height: "50px", minHeight:"40px"}} >
           <Container fluid  
           >
-            <Navbar.Brand href="#" className="d-flex align-items-center col-10 m-0 p-0">
-              <img alt="" width="150px" height="40px" src={AppLogo} href="/" />
+            <Navbar.Brand href="/" className="d-flex align-items-center col-10 m-0 p-0">
+              <img alt="" width="150px" height="40px" src={AppLogo}  />
             </Navbar.Brand>
 
             <Navbar.Brand href="#" className="d-flex align-items-center justify-content-evenly col-2 m-0">

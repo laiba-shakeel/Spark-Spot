@@ -50,6 +50,7 @@ import TechCategoriesOrder from "./tech-categories-order.jpg"
 import bussinessCategoriesOrder from "./bussiness-categories-order.jpg"
 import OrderList from "./order-list.png"
 import AnimationBanner from "./AnimationGif.gif"
+import QrcodeImage from "./QR-code.png"
 
 export {
     AppLogo,
@@ -103,5 +104,6 @@ export {
     TechCategoriesOrder,
     bussinessCategoriesOrder,
     OrderList,
-    AnimationBanner
+    AnimationBanner,
+    QrcodeImage
 }

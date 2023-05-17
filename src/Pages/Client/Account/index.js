@@ -7,7 +7,8 @@ import { HiArrowRight } from "react-icons/hi";
 function ClientAccount() {
   return (
     <ClientAccountLayout title="My Account">
-      <div className="col-6 col-xl-4 d-flex justify-content-center align-items-center flex-column">
+      
+      <div className="col-md-6 col-xl-4  d-flex justify-content-center align-items-center flex-column">
       <div
         className="shadow Accountcard row p-0 p-1 "
         style={{
@@ -48,12 +49,16 @@ function ClientAccount() {
         </div>
       </div>
       </div>
-      <div className="col-6 col-xl-4 d-flex justify-content-center align-items-end flex-column">
+      <div className="col-xl-4 d-none d-xl-block d-flex justify-content-center align-items-end flex-column">
        <img src={AnalyizeDashboard} style={{borderRadius:"20px",  height:"30vh" }} className="shadow img-fluid"/>
       </div>
-      <div className="col-6 col-xl-4 d-flex justify-content-center align-items-center flex-column">
+      <div className="col-md-6 col-xl-4 d-none d-md-block  d-flex justify-content-center align-items-center flex-column">
        <img src={CircleOverviewDashboard} style={{borderRadius:"20px", }} className="shadow img-fluid"/>
       </div>
+      <div className="col-6 d-block d-md-none d-flex justify-content-center align-items-end flex-column">
+       <img src={AnalyizeDashboard} style={{borderRadius:"20px",  height:"30vh" }} className="shadow img-fluid"/>
+      </div>
+      
       
     </ClientAccountLayout>
   );

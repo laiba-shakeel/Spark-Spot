@@ -24,8 +24,8 @@ function GuestHeader() {
           style={{height: "70px", minHeight:"60px"}} 
           // className="h-auto h"
           >
-            <Navbar.Brand href="#" className="d-flex align-items-center">
-              <img width="150px" height="40px" src={AppLogo} />
+            <Navbar.Brand href="/" className="d-flex align-items-center">
+             <img width="150px" height="40px" src={AppLogo} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas

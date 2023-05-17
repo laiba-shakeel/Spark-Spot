@@ -8,6 +8,8 @@ import {
     YoutubeOutlined,
     LinkedinOutlined
 } from "@ant-design/icons";
+import {QrcodeImage} from "../../../Assets/index"
+
 const style = {
   footer: {
     height: "auto",
@@ -49,10 +51,7 @@ function GuestFooter() {
             <p style={style.cursor}>Hire an Agency</p>
             <p style={style.cursor}>Enterprises</p>
             <p style={style.cursor}>Any Hire</p>
-            <p style={style.cursor}>Contract-to-Hire</p>
-            <p style={style.cursor}>Direct Contracts</p>
-            <p style={style.cursor}>Hire Worldwide</p>
-            <p style={style.cursor}>Hire in the USA</p>
+            <img src={QrcodeImage} style={{height:"18vh", width:"auto"}}/>
           </div>
           <div className="col col-6 col-lg-3 col-md-3 ps-5">
             <p className="pb-2 fw-bold" style={style.cursor}>For Talents</p>

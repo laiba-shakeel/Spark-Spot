@@ -13,9 +13,8 @@ import {
 function ClientFindTalent() {
   return (
     <ClientAccountLayout title="Find Talent">
-      <div className="row d-flex  align-items-center">
-        <div
-          className="col-3 my-1 mx-2 px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
+      <div className="row d-flex  align-items-center justify-content-evenly">
+        <div className="col-3 my-1 mx-2 px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
           style={{
             backgroundImage: `url(${DesignCategoriesOrder})`,
             backgroundColor:"#ffce5f",
@@ -29,8 +28,7 @@ function ClientFindTalent() {
         >
           <button className="buttonTalentHover shadow"><text className="buttonTalentText">Select</text></button>
         </div>
-        <div
-          className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
+        <div className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
           style={{
             backgroundImage: `url(${MusicCategoriesOrder})`,
             borderRadius: "10px",
@@ -44,8 +42,7 @@ function ClientFindTalent() {
         >
           <button className="buttonTalentHover shadow"><text className="buttonTalentText">Select</text></button>
         </div>
-        <div
-          className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
+        <div className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
           style={{
             backgroundImage: `url(${bussinessCategoriesOrder})`,
             borderRadius: "10px",
@@ -59,8 +56,7 @@ function ClientFindTalent() {
         >
           <button className="buttonTalentHover shadow"><text className="buttonTalentText">Select</text></button>
         </div>
-        <div
-          className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
+        <div className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
           style={{
             backgroundImage: `url(${ScienceCategoriesOrder})`,
             borderRadius: "10px",
@@ -74,8 +70,7 @@ function ClientFindTalent() {
         >
          <button className="buttonTalentHover shadow"><text className="buttonTalentText">Select</text></button>
         </div>
-        <div
-          className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
+        <div className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
           style={{
             backgroundImage: `url(${TechCategoriesOrder})`,
             borderRadius: "10px",
@@ -89,8 +84,7 @@ function ClientFindTalent() {
         >
           <button className="buttonTalentHover shadow"><text className="buttonTalentText">Select</text></button>
         </div>
-        <div
-          className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
+        <div className="col-3 my-1 mx-2  px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
           style={{
             backgroundImage: `url(${MarketCategoriesOrder})`,
             borderRadius: "10px",

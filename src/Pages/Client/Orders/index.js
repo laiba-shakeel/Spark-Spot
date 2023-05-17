@@ -5,7 +5,7 @@ import "./order.css"
 function ClientOrders() {
   return (
     <ClientAccountLayout title="Order">
-      <div className='row'>
+      <div className='row d-none d-lg-block'>
       <div className="container  ">
     
     
