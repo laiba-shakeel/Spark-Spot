@@ -19,7 +19,7 @@ function ClientAccountLayout({children, title}) {
         <div className='col-12'>
         <div className='row ps-3 pt-3' style={{ height:"88vh", background: baseColors.white,}}>
       <h3 className='p-0 py-1' style={{color:baseColors.Dark}}>{title}</h3>
-      <div className='row d-flex justify-content-start align-items-start m-0 ' style={{height:"70vh"}}>
+      <div className='row d-flex justify-content-start align-items-start m-0 ' style={{height:"70vh", }}>
         {children}
         </div>
         </div>

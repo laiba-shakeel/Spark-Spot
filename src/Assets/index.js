@@ -35,16 +35,21 @@ import Sec46 from "./machine-learning.jpg"
 import Sec47 from "./CyberSecurity.jpg"
 import DummyPerson from "./DummyPerson.png"
 import PaymentMethod from "./payment-method.png"
-<<<<<<< HEAD
 import AnalyizeDashboard from "./analyize-dashboard.jpg"
 import CircleOverviewDashboard from "./circle-overview-dashboard.jpg"
 import CatogoriesOrder from "./catogries-dashboard.jpg"
-=======
 import writerF from "./writerF.avif" 
 import uiDesign from "./uiDesign.avif"
 import ContentWriter from "./contentWriter.png"
 import DesignerUI from "./DesignerUI.png"
->>>>>>> 53bed623364f2f29549479da66f1c5d4dadce98c
+import DesignCategoriesOrder from "./Design-categories-order.jpg"
+import MusicCategoriesOrder from "./music-categories-order.jpg"
+import ScienceCategoriesOrder from "./science-categories-order.jpg"
+import MarketCategoriesOrder from "./market-categories-order.jpg"
+import TechCategoriesOrder from "./tech-categories-order.jpg"
+import bussinessCategoriesOrder from "./bussiness-categories-order.jpg"
+import OrderList from "./order-list.png"
+import AnimationBanner from "./AnimationGif.gif"
 
 export {
     AppLogo,
@@ -84,14 +89,19 @@ export {
     Sec47,
     DummyPerson,
     PaymentMethod,
-<<<<<<< HEAD
     AnalyizeDashboard,
     CircleOverviewDashboard,
-    CatogoriesOrder
-=======
+    CatogoriesOrder,
     writerF,
     uiDesign,
     DesignerUI,
-    ContentWriter
->>>>>>> 53bed623364f2f29549479da66f1c5d4dadce98c
+    ContentWriter,
+    DesignCategoriesOrder,
+    MusicCategoriesOrder,
+    ScienceCategoriesOrder,
+    MarketCategoriesOrder,
+    TechCategoriesOrder,
+    bussinessCategoriesOrder,
+    OrderList,
+    AnimationBanner
 }

@@ -1,0 +1,16 @@
+.buttonTalentHover {
+    background-color: transparent; 
+    color: #3C1173; 
+    border: 2px solid #3C1173;
+    width: 150px;
+    height: 40px;
+  }
+  
+  .buttonTalentHover:hover {
+    background-color: #3C1173;
+    color: white;
+  }
+  .buttonTalentText{
+    font-size: "16px";
+    font-weight: bold;
+  }

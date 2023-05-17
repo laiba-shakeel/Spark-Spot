@@ -3,6 +3,7 @@ import ClientAccountLayout from "../../../Layouts/ClientAccountLayout";
 import baseColors from "../../../Constant/color";
 import { PaymentMethod } from "../../../Assets";
 import GradientButton from "../../../Components/Button/GradientButton";
+import PaymentModal from "../../../Components/Modal/PaymentModal";
 // import { HiArrowRight } from "react-icons/hi";
 
 function ClientPaymentMethod() {
@@ -14,11 +15,12 @@ function ClientPaymentMethod() {
         </div>
         <div className="col-12 py-2 d-flex justify-content-start align-items-center  flex-column">
           <GradientButton
-            title="Add Payment"
             color={baseColors.white}
             backgroundColor1={baseColors.primaryColor}
             backgroundColor2={baseColors.secondaryColor}
-          />
+          >
+            <PaymentModal />
+          </GradientButton>
         </div>
       </div>
     </ClientAccountLayout>
