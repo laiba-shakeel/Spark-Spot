@@ -5,6 +5,7 @@ import "./order.css"
 function ClientOrders() {
   return (
     <ClientAccountLayout title="Order">
+      <div className='row'>
       <div className="container  ">
     
     
@@ -80,6 +81,7 @@ function ClientOrders() {
   
   </div>
     
+</div>
 </div>
     </ClientAccountLayout>
   )

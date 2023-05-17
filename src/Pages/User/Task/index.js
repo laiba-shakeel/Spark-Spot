@@ -6,7 +6,8 @@ import "./task.css"
 function UserTask() {
   return (
     <UserAccountLayout title="Task">
-      <div className="container  ">
+      <div className="row" >
+      <div className="container" >
     
     
     <div className="table-responsive">
@@ -81,6 +82,7 @@ function UserTask() {
   
   </div>
     
+</div>
 </div>
     </UserAccountLayout>
   )
