@@ -15,15 +15,21 @@ const AccountDetailForm = () => {
           
             <div className="card mb-4 mb-xl-0">
                 <div className="card-header py-0">Profile Picture</div>
-                <div className="card-body text-center">
+                <div className="card-body text-center  row d-flex justify-content-center">
+                    <div className='col-8'>
                     <img className="img-account-profile rounded-circle mb-2" src={DummyPerson} alt='' style={{width:"15vw", height:"18vh"}}/>
+                    </div>
+                    
                     <div className="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
+                    <div className='col-8'>
                     <GradientButton variant="primary"
             title="Upload your image"
             color={baseColors.white}
             backgroundColor1={baseColors.primaryColor}
             backgroundColor2={baseColors.secondaryColor}
           />
+                    </div>
+                    
                 </div>
             </div>
         </div>

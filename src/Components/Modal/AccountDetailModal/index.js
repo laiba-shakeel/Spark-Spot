@@ -37,10 +37,9 @@ function AccountDetailModal({children}) {
       <Modal show={show} 
       onHide={handleClose} 
       size="xl"
-      style={{border:"2px solid red"}}
       >
 
-        <Modal.Header className='py-0' closeButton style={{border:"2px solid red"}} >
+        <Modal.Header className='py-0' closeButton >
           <Modal.Title className='p-0'>Account Detail</Modal.Title>
         </Modal.Header>
         <Modal.Body className='p-0'>
