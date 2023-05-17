@@ -69,7 +69,7 @@ function GuestFooter() {
             <p className="pb-2 fw-bold" style={style.cursor}>Resources</p>
             <p style={style.cursor}>Help & Support</p>
             <p style={style.cursor}>Success Stories</p>
-            <p style={style.cursor}>Fulcsion Reviews</p>
+            <p style={style.cursor}> Reviews</p>
             <p style={style.cursor}>Resources</p>
             <p style={style.cursor}>Blog</p>
             <p style={style.cursor}>Community</p>
@@ -107,7 +107,7 @@ function GuestFooter() {
           <span className="pe-2">
             <strong style={style.cursor}>Free Classifieds in Pakistan</strong>
           </span>
-          <span className="pe-2" style={style.cursor}>. © 2023 - Onwords Fulcsion</span>
+          <span className="pe-2" style={style.cursor}>. © 2023 - Onwords Spartspot</span>
         </div>
       </div>
     </div>

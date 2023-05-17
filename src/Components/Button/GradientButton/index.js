@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function GradientButton({ height, borderRadius, width, color, backgroundColor1, backgroundColor2, fontWeight, title, onClick }) {
+export default function GradientButton({children, height, borderRadius, width, color, backgroundColor1, backgroundColor2, fontWeight, title, onClick }) {
 
     const styles = {
         button: {
@@ -28,7 +28,7 @@ export default function GradientButton({ height, borderRadius, width, color, bac
             style={styles.button}
             className='d-flex align-items-center justify-content-center'
         >
-            {title}
+            {title}{children}
         </button>
     )
 

@@ -42,6 +42,14 @@ import writerF from "./writerF.avif"
 import uiDesign from "./uiDesign.avif"
 import ContentWriter from "./contentWriter.png"
 import DesignerUI from "./DesignerUI.png"
+import DesignCategoriesOrder from "./Design-categories-order.jpg"
+import MusicCategoriesOrder from "./music-categories-order.jpg"
+import ScienceCategoriesOrder from "./science-categories-order.jpg"
+import MarketCategoriesOrder from "./market-categories-order.jpg"
+import TechCategoriesOrder from "./tech-categories-order.jpg"
+import bussinessCategoriesOrder from "./bussiness-categories-order.jpg"
+import OrderList from "./order-list.png"
+import AnimationBanner from "./AnimationGif.gif"
 
 export {
     AppLogo,
@@ -81,11 +89,19 @@ export {
     Sec47,
     DummyPerson,
     PaymentMethod,
+    AnalyizeDashboard,
+    CircleOverviewDashboard,
+    CatogoriesOrder,
     writerF,
     uiDesign,
     DesignerUI,
     ContentWriter,
-    AnalyizeDashboard,
-    CircleOverviewDashboard,
-    CatogoriesOrder
+    DesignCategoriesOrder,
+    MusicCategoriesOrder,
+    ScienceCategoriesOrder,
+    MarketCategoriesOrder,
+    TechCategoriesOrder,
+    bussinessCategoriesOrder,
+    OrderList,
+    AnimationBanner
 }

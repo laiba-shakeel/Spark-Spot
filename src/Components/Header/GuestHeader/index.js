@@ -40,9 +40,9 @@ function GuestHeader() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1 ">
-                  <Nav.Link href="#action1" className="nav-link active primary-header-menu-item ">Find Talent</Nav.Link>
-                  <Nav.Link href="#action2" className="nav-link active primary-header-menu-item ">Find Work</Nav.Link>
-                  <Nav.Link href="#action3" className="nav-link active primary-header-menu-item ">Why Spark Spot</Nav.Link>
+                  <Nav.Link href="/find-talent" className="nav-link active primary-header-menu-item ">Find Talent</Nav.Link>
+                  <Nav.Link href="/find-work" className="nav-link active primary-header-menu-item ">Find Work</Nav.Link>
+                  <Nav.Link href="/why-us" className="nav-link active primary-header-menu-item ">Why Spark Spot</Nav.Link>
                   <Nav.Link href="#action4" className="nav-link active primary-header-menu-item ">Enterprise</Nav.Link>
                 </Nav>
                 <Nav className="justify-content-end align-items-center flex-grow-2 pe-3">

@@ -1,7 +1,7 @@
 import React from 'react'
 import SignInLayout from '../../../Layouts/SignInLayout'
 import { useNavigate } from "react-router-dom";
-import ClientAccountDetailModal from '../../../Components/Modal/ClientAccountDetailModal';
+import AccountDetailModal from '../../../Components/Modal/AccountDetailModal';
 import GradientButton from '../../../Components/Button/GradientButton';
 import baseColors from '../../../Constant/color';
 
@@ -9,10 +9,10 @@ function SignInClient() {
   const Navigate = useNavigate();
   return (
     <SignInLayout 
-    // title="Continue with Email"
-    // }
+    title="User"
+    onClick={() => Navigate('/signin-user')}
     >
-      <ClientAccountDetailModal >
+      <AccountDetailModal >
       <div onClick={() => Navigate('/client-account')}>
       <GradientButton variant="primary" 
             title="Save Changes"
@@ -21,7 +21,7 @@ function SignInClient() {
             backgroundColor2={baseColors.secondaryColor}
           />
           </div>
-      </ClientAccountDetailModal>
+      </AccountDetailModal>
     </SignInLayout>
   )
 }

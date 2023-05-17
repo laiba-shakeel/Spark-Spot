@@ -2,10 +2,10 @@ import React from "react";
 import baseColors from "../../Constant/color";
 import SignInForm from "../../Components/form/SignInForm";
 import MinorFooter from "../../Components/Footer/MinorFooter";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import { AppLogo } from "../../Assets";
 
-function SignInLayout({ children }) {
-
+function SignInLayout({ children, onClick, title }) {
   return (
     <div
       className="row m-0 d-flex justify-content-center"
@@ -32,6 +32,9 @@ function SignInLayout({ children }) {
           </text> */}
         </SignInForm>
       </div>
+      <text className="pe-4 pb-1" style={{ fontSize: "15px", fontWeight: "bold", textAlign:"end" , color:baseColors.primaryColor }} onClick={onClick}>
+        Login as {title} <span><ArrowRightOutlined style={{color:baseColors.secondaryColor, fontSize:"15px"}}/></span>
+      </text>
       <div className="row p-0">
         <MinorFooter />
       </div>

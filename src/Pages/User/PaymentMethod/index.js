@@ -1,13 +1,13 @@
 import React from "react";
-import ClientAccountLayout from "../../../Layouts/ClientAccountLayout";
+import UserAccountLayout from "../../../Layouts/UserAccountLayout";
 import baseColors from "../../../Constant/color";
 import { PaymentMethod } from "../../../Assets";
 import GradientButton from "../../../Components/Button/GradientButton";
 import PaymentModal from "../../../Components/Modal/PaymentModal";
 // import { HiArrowRight } from "react-icons/hi";
-function ClientPaymentMethod() {
+function UserPaymentMethod() {
   return (
-    <ClientAccountLayout title="Payment Method">
+    <UserAccountLayout title="Payment Method">
       <div className="row  m-0 d-flex justify-content-center align-items-start ">
         <div className="col-12 d-flex justify-content-center align-items-center">
           <img alt="" src={PaymentMethod} style={{ height: "50vh", width: "30vw" }} />
@@ -22,8 +22,8 @@ function ClientPaymentMethod() {
           </GradientButton>
         </div>
       </div>
-    </ClientAccountLayout>
+    </UserAccountLayout>
   );
 }
 
-export default ClientPaymentMethod;
+export default UserPaymentMethod;

@@ -5,15 +5,10 @@ import { useNavigate } from "react-router-dom";
 const TalentCard = () => {
   const navigate = useNavigate();
   return (
-    <div>
-      <section style={{
-        backgroundColor: "#eee"
-      }}>
-  <div className="container py-5 " style={{
-                        border:"2px solid black"}}>
-    <div className="row justify-content-center mb-3">
-      <div className="col-md-12 col-xl-10">
-        <div className="card shadow-0 border rounded-3">
+
+  <div className='row w-75'>
+
+        <div className="row card shadow-0 border rounded-3 my-1 ">
           <div className="card-body">
             <div className="row">
               <div className="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
@@ -75,11 +70,9 @@ const TalentCard = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div className="row justify-content-center mb-3">
-      <div className="col-md-12 col-xl-10">
-        <div className="card shadow-0 border rounded-3">
+ 
+
+        <div className="row card shadow-0 border rounded-3 my-1">
           <div className="card-body">
             <div className="row">
               <div className="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
@@ -140,10 +133,8 @@ const TalentCard = () => {
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-    </div>
+  
+
   )
 }
 

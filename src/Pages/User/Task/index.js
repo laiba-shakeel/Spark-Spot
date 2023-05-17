@@ -1,10 +1,11 @@
 import React from 'react'
-import ClientAccountLayout from '../../../Layouts/ClientAccountLayout'
-import "./order.css"
+import UserAccountLayout from '../../../Layouts/UserAccountLayout'
+import "./task.css"
 
-function ClientOrders() {
+
+function UserTask() {
   return (
-    <ClientAccountLayout title="Order">
+    <UserAccountLayout title="Task">
       <div className="container  ">
     
     
@@ -81,8 +82,8 @@ function ClientOrders() {
   </div>
     
 </div>
-    </ClientAccountLayout>
+    </UserAccountLayout>
   )
 }
 
-export default ClientOrders
+export default UserTask

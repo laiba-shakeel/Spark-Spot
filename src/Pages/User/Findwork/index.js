@@ -1,6 +1,6 @@
 import React from "react";
-import ClientAccountLayout from "../../../Layouts/ClientAccountLayout";
-import "./FindTalent.css"
+import UserAccountLayout from "../../../Layouts/UserAccountLayout";
+import "./FindWork.css"
 
 import {
   DesignCategoriesOrder,
@@ -10,9 +10,10 @@ import {
   TechCategoriesOrder,
   bussinessCategoriesOrder,
 } from "../../../Assets";
-function ClientFindTalent() {
+
+function UserFindWork() {
   return (
-    <ClientAccountLayout title="Find Talent">
+    <UserAccountLayout title="Find Talent">
       <div className="row d-flex  align-items-center">
         <div
           className="col-3 my-1 mx-2 px-0 rounded d-flex justify-content-center align-items-center py-1 flex-column shadow"
@@ -107,8 +108,8 @@ function ClientFindTalent() {
       </div>
 
       {/* <TalentCard />  */}
-    </ClientAccountLayout>
+    </UserAccountLayout>
   );
 }
 
-export default ClientFindTalent;
+export default UserFindWork;
