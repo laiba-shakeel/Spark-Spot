@@ -1,6 +1,7 @@
 import React from "react";
 import './style.css'
 import baseColors from "../../../Constant/color";
+import LogoutModal from "../../Modal/LogoutModal";
 
 function ClientAccountDrawer() {
   return (
@@ -51,12 +52,9 @@ function ClientAccountDrawer() {
           </a>
         </li>
         <li className="d-flex align-item-center justify-content-start py-1">
-          <a
-            className="nav-link active primary-Drawer-menu-item"
-            href="/"
-          >
-            log out
-          </a>
+          
+            <LogoutModal />
+          
         </li>
       </ul>
     </nav>

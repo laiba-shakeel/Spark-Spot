@@ -38,7 +38,7 @@ function MinorFooter() {
             <strong style={style.cursor}>Free Classifieds in Pakistan</strong>
           </span>
           <span className="pe-2" style={style.cursor}>
-            . © 2023 - Onwords Fulcsion
+            . © 2023 - Onwords Sparkspot
           </span>
         </div>
       </div>

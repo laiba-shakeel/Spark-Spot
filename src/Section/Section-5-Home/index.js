@@ -5,8 +5,6 @@ import "./style.css";
 
 const SectionFiveHome = () => {
   return (
-    
-    
       <div className="row d-flex justify-content-center align-items-evenly m-0 p-0 slider_img my-5 ">
         <div className="row justify-content-center mt-3 m-0 py-3">
           <div className=" col-12 col-md-10 text-center justify-content-center align-items-center ">
@@ -23,22 +21,22 @@ const SectionFiveHome = () => {
             <div className="col-12 col-md-4 blogItem">
               
                 {/* <img src={img1} alt="" class="w-100" /> */}
-                <text className="spanTitle text-dark text-center ">
-                  Marvelous Designer: Revolutionizing the 3D Clothing{" "}
+                <text className="spanTitle text-dark text-center">
+                  Post a job and hire a pro{" "}<span>Talent Marketplace<sup>TM</sup></span>
                 </text>
               
             </div>
             <div className="col-md-4 d-none d-md-block  align-items-center justify-content-center blogItem ">
               
                 <text className="spanTitle text-dark text-center">
-                  Marvelous Designer: Revolutionizing the 3D Clothing{" "}
+                  Brows and buy projects <span>Project catalog<sup>TM</sup></span>{" "}
                 </text>
               
             </div>
             <div className="col-md-4 d-none d-md-block blogItem ">
                 {/* <img src={img1}  alt="" class="w-100" /> */}
                 <text className="spanTitle text-dark text-center">
-                  Marvelous Designer: Revolutionizing the 3D Clothing{" "}
+                Let us help you Find work<span>Talent Scouts<sup>TM</sup></span>{" "}
                 </text>
               
             </div>

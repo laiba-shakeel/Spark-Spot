@@ -35,6 +35,21 @@ import Sec46 from "./machine-learning.jpg"
 import Sec47 from "./CyberSecurity.jpg"
 import DummyPerson from "./DummyPerson.png"
 import PaymentMethod from "./payment-method.png"
+import AnalyizeDashboard from "./analyize-dashboard.jpg"
+import CircleOverviewDashboard from "./circle-overview-dashboard.jpg"
+import CatogoriesOrder from "./catogries-dashboard.jpg"
+import writerF from "./writerF.avif" 
+import uiDesign from "./uiDesign.avif"
+import ContentWriter from "./contentWriter.png"
+import DesignerUI from "./DesignerUI.png"
+import DesignCategoriesOrder from "./Design-categories-order.jpg"
+import MusicCategoriesOrder from "./music-categories-order.jpg"
+import ScienceCategoriesOrder from "./science-categories-order.jpg"
+import MarketCategoriesOrder from "./market-categories-order.jpg"
+import TechCategoriesOrder from "./tech-categories-order.jpg"
+import bussinessCategoriesOrder from "./bussiness-categories-order.jpg"
+import OrderList from "./order-list.png"
+import AnimationBanner from "./AnimationGif.gif"
 
 export {
     AppLogo,
@@ -73,5 +88,20 @@ export {
     Sec46,
     Sec47,
     DummyPerson,
-    PaymentMethod
+    PaymentMethod,
+    AnalyizeDashboard,
+    CircleOverviewDashboard,
+    CatogoriesOrder,
+    writerF,
+    uiDesign,
+    DesignerUI,
+    ContentWriter,
+    DesignCategoriesOrder,
+    MusicCategoriesOrder,
+    ScienceCategoriesOrder,
+    MarketCategoriesOrder,
+    TechCategoriesOrder,
+    bussinessCategoriesOrder,
+    OrderList,
+    AnimationBanner
 }

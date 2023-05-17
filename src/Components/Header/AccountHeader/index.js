@@ -13,16 +13,15 @@ function AccountHeader() {
           <Container fluid  
           >
             <Navbar.Brand href="#" className="d-flex align-items-center col-10 m-0 p-0">
-              <img width="150px" height="40px" src={AppLogo} />
+              <img alt="" width="150px" height="40px" src={AppLogo} href="/" />
             </Navbar.Brand>
 
             <Navbar.Brand href="#" className="d-flex align-items-center justify-content-evenly col-2 m-0">
               <BsBell style={{fontSize:"20px"}}/>
-              <img width="35px" height="35px" 
+              <img alt="" width="35px" height="35px" 
               src={DummyPerson} 
               />
             </Navbar.Brand>
-            
           </Container>
         </Navbar>
    

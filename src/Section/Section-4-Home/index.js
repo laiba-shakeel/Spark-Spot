@@ -17,7 +17,7 @@ function SectionFourHome() {
             fontWeight={600}
             opacity={0.5}
           />
-          <h4 className="mb10 text-center py-3">
+          <h4 className="mb10 text-center py-3" style={{color:baseColors.Dark}}>
             We've got options to get you where you're going.
           </h4>
         </div>

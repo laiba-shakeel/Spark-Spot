@@ -25,7 +25,7 @@ function SectionThreeHome() {
             fontWeight={600}
             opacity={0.5}
           />
-          <h6 className=" text-center py-3 text-white">
+          <h6 className=" text-center py-3 text-white" >
             We've got options to get you where you're going.
           </h6>
         </div>

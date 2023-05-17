@@ -79,20 +79,7 @@ h1 h2 h3 h4 h5 h6 a span p{
     font-size: 24px;
 	justify-content: center;
 }
-.fill{
-	height: auto;
-	border: 1px solid #002f34;
-	border-radius: 30px;
-	color: #002f34;
-}
-.fill:focus {
-	font-style:normal;
-	border: 1px solid #002f34;
-	color: #002f34;
-	-webkit-box-shadow: none;
-    box-shadow: none;
-	
-}
+
 .hvr_btn:hover{
 	border-bottom: 4px solid #002f34;
 	cursor: pointer;
