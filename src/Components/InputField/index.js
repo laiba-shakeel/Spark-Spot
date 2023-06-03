@@ -1,11 +1,13 @@
 import React from "react";
 import baseColors from "../../Constant/color";
 
-function InputField({ placeholder, children, type }) {
+function InputField({ placeholder, children, type, value,onChange }) {
   return (
     <input
       placeholder={placeholder}
       type={type}
+      value={value}
+      onChange={onChange}
       style={{
         height: 35,
         margin: 5,

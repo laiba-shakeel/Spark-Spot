@@ -1,12 +1,40 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './style.css'
 import { DummyPerson } from '../../../Assets'
 import GradientButton from '../../Button/GradientButton'
 import baseColors from '../../../Constant/color'
 import InputField from '../../InputField'
+//------------------------
+import { useDispatch } from 'react-redux'
+import { nanoid } from '@reduxjs/toolkit'
+import { ClientAccountDetailAdded } from '../../../Redux/Client/ClientAccountDetailSlice/ClientAccountDetailSlice'
 
 
 const AccountDetailForm = () => {
+
+    const dispatch = useDispatch()
+    const [UserName, setUserName] = useState('')
+    // const [content, setContent] = useState("")
+
+
+    const onUserNameChanged = e => setUserName(e.target.value)
+    // const onContentChanged = e => setContent(e.target.value)
+
+
+    const onSavePostClicked = () => {
+        if(UserName) {
+            dispatch(
+                ClientAccountDetailAdded({
+                    id: nanoid(),
+                    UserName,
+              })
+            )
+
+            setUserName(" ")
+            // setContent("")
+        }
+    }
+
   return (
     <div>
       <div className="container px-4 mt-4">
@@ -40,8 +68,12 @@ const AccountDetailForm = () => {
                     <form>
                         <div className="mb-3">
                             <label className="small mb-1" >Username (how your name will appear to other users on the site)</label>
-                            <InputField type="text" placeholder="Enter your username" />
+                            <InputField type="text" placeholder="Enter your username" 
+                            value={UserName}
+                            onChange={onUserNameChanged} />
                         </div>
+                        <button
+                        type='button' onClick={onSavePostClicked}>save</button>
                         <div className="row gx-3 mb-3">
                             <div className="col-md-6">
                                 <label className="small mb-1" for="inputFirstName">First name</label>

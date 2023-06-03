@@ -4,6 +4,7 @@ import { AppLogo , DummyPerson } from "../../../Assets";
 import { useNavigate } from 'react-router'
 import { BsBell } from "react-icons/bs";
 import './style.css'
+import ClientProfileDrawer from "../../Drawer/ClientProfileDrawer";
 
 function AccountHeader() {
   const navigate = useNavigate()
@@ -18,9 +19,10 @@ function AccountHeader() {
 
             <Navbar.Brand href="#" className="d-flex align-items-center justify-content-evenly col-2 m-0">
               <BsBell style={{fontSize:"20px"}}/>
-              <img alt="" width="35px" height="35px" 
+              <ClientProfileDrawer />
+              {/* <img alt="" width="35px" height="35px" 
               src={DummyPerson} 
-              />
+              /> */}
             </Navbar.Brand>
           </Container>
         </Navbar>

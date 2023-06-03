@@ -1,8 +1,8 @@
 
   
-  .primary-Drawer-menu-link:hover {
+  /* .primary-Drawer-menu-link:hover {
     color: #ff3b33 !important;
-  }
+  } */
   
   .primary-Drawer-menu {
     border-bottom: none !important;
@@ -14,9 +14,9 @@
   }
   
   /* .primary-Drawer-menu-item.active, */
-  .primary-Drawer-menu-item:hover {
+  /* .primary-Drawer-menu-item:hover {
     color: #ff3b33 !important;
-  }
+  } */
 
   /* .primary-Drawer-menu-item:hover {
     background-color: #f0f2f5;

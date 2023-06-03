@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './style.css'
 import baseColors from "../../../Constant/color";
 import LogoutModal from "../../Modal/LogoutModal";
@@ -12,8 +12,11 @@ function ClientAccountDrawer() {
       <ul className="navbar-nav px-2 row" style={{background:baseColors.white}}>
         <li className="d-flex align-item-center justify-content-start py-1" eventKey="link-1">
           <a
-            className="nav-link active primary-Drawer-menu-item "
+            className="nav-link  primary-Drawer-menu-item "
+            
             href="/client-account"
+            // onClick={() => setView('SelectOne')}
+            // style={{ color: view === 'SelectOne' ? "#f9504d" : "#000"}}
           >
             My Account
           </a>
@@ -21,8 +24,10 @@ function ClientAccountDrawer() {
         </li>
         <li className="d-flex align-item-center justify-content-start py-1">
           <a
-            className="nav-link active primary-Drawer-menu-item"
+          className="nav-link  primary-Drawer-menu-item "
             href="/client-find-talent"
+            // onClick={() => setView('SelectTwo')}
+            // style={{ color: view === 'SelectTwo' ? "#f9504d" : "#000"}}
           >
             Find Talent
           </a>
