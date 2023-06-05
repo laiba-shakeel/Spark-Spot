@@ -7,7 +7,7 @@ import InputField from '../../InputField'
 //------------------------
 import { useDispatch } from 'react-redux'
 import { nanoid } from '@reduxjs/toolkit'
-import { ClientAccountDetailAdded } from '../../../Redux/Client/ClientAccountDetailSlice/ClientAccountDetailSlice'
+import { DetailAdded } from '../../../Redux/Client/AccountDetail/AccountDetailSlice'
 
 
 const AccountDetailForm = () => {
@@ -24,7 +24,7 @@ const AccountDetailForm = () => {
     const onSavePostClicked = () => {
         if(UserName) {
             dispatch(
-                ClientAccountDetailAdded({
+                DetailAdded({
                     id: nanoid(),
                     UserName,
               })
@@ -122,4 +122,6 @@ const AccountDetailForm = () => {
 }
 
 export default AccountDetailForm
+
+
 

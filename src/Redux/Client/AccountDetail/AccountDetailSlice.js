@@ -5,19 +5,19 @@ const initialState = [
     // { id:'2' , title: 'slice...' , content: "the more I say slice , the more I want pizza"}
 ]
 
-const ClientAccountDetailSlice = createSlice({
-    name: 'ClientAccountDetail', 
+const AccountDetailSlice = createSlice({
+    name: 'AccountDetail', 
     initialState, 
     reducers: {
 
-        ClientAccountDetailAdded(state , action) {
+        DetailAdded(state , action) {
             state.push(action.payload)
         }
     }
 })
 
-export const selectAllPosts = (state) => state.ClientAccountDetails;
+export const selectAllDetails = (state) => state.AccountDetails;
 
-export const {ClientAccountDetailAdded} = ClientAccountDetailSlice.actions
+export const {DetailAdded} = AccountDetailSlice.actions
 
-export default ClientAccountDetailSlice.reducer
+export default AccountDetailSlice.reducer

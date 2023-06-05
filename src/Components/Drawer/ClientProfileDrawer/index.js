@@ -3,7 +3,7 @@ import { useState } from "react";
 import { AppLogo, DummyPerson } from "../../../Assets";
 import { useSelector } from "react-redux";
 import baseColors from "../../../Constant/color";
-import { selectAllPosts } from "../../../Redux/Client/ClientAccountDetailSlice/ClientAccountDetailSlice";
+import { selectAllDetails } from "../../../Redux/Client/AccountDetail/AccountDetailSlice";
 
 const ClientProfileDrawer = () => {
   const [open, setOpen] = useState(false);
@@ -43,7 +43,7 @@ const ClientProfileDrawer = () => {
     },
   };
 
-  const posts = useSelector(selectAllPosts);
+  const posts = useSelector(selectAllDetails);
 
   const renderPosts = posts.map((post) => (
     // <article key={post.id}>
